@@ -41,7 +41,7 @@ class _ClubpgState extends State<Clubpg> {
               Spacer(),
               Padding(
                 padding: EdgeInsets.only(top:25),
-                child: Text('Clubs',
+                child: Text('Menu',
                   style: TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.bold,
@@ -73,13 +73,18 @@ class _ClubpgState extends State<Clubpg> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Container(
-                      margin: EdgeInsets.fromLTRB(325,10, 0, 19),
+                      margin: EdgeInsets.fromLTRB(325,10, 0, 18),
                       width: 15,
                       height: 15,
-                      child: Image.asset(
-                        'assets/s1.png',
-                        width: 15,
-                        height: 15,
+                      child: GestureDetector(
+                        onTap: (){
+                          Navigator.pushNamed(context, 'homepg');
+                        },
+                        child: Image.asset(
+                          'assets/s1.png',
+                          width: 15,
+                          height: 15,
+                        ),
                       ),
                     ),
                     Container(
@@ -88,7 +93,7 @@ class _ClubpgState extends State<Clubpg> {
                         text:TextSpan(
                           children: [
                             TextSpan(
-                              text: 'C',
+                              text: 'M',
                               style: TextStyle(
                                 fontSize: 25,
                                 letterSpacing: 1,
@@ -98,7 +103,7 @@ class _ClubpgState extends State<Clubpg> {
                               ),
                             ),
                             TextSpan(
-                              text: 'lubs',
+                              text: 'enu',
                               style: TextStyle(
                                 fontSize: 25,
                                 letterSpacing: 1,
@@ -109,6 +114,13 @@ class _ClubpgState extends State<Clubpg> {
                             ),
                           ],
                         ),
+                      ),
+                    ),
+                    Container(
+                      width: double.infinity,
+                      height: 0.5,
+                      decoration: BoxDecoration(
+                        color: Colors.white,
                       ),
                     ),
                     SizedBox(
@@ -352,12 +364,122 @@ class _ClubpgState extends State<Clubpg> {
                               width: 21,
                               height: 16.79,
                               child: Image.asset(
-                                'assets/s7.png',
+                                'assets/ecell.png',
                                 width: 21,
                                 height: 16.79,
                               ),
                             ),
                             Text('Entrepreneurship Cell',style: TextStyle(
+                              fontSize: 16,
+                              letterSpacing: 1,
+                              fontWeight: FontWeight.w400,
+                              height: 1.5,
+                              color: Color(0xffffffff),
+                            ),),
+                          ],
+                        ),
+                      ),
+                    ),
+                    GestureDetector(
+                      onTap: (){
+                        Navigator.pushNamed(context, 'pasteventpg');
+                      },
+                      child: Container(
+                        margin: EdgeInsets.fromLTRB(24, 0, 117, 15),
+                        padding: EdgeInsets.fromLTRB(26, 5, 30, 5),
+                        width: double.infinity,
+                        decoration: BoxDecoration(
+                          // color: Color(0xe5e87603),
+                          borderRadius:  BorderRadius.circular(10),
+                        ),
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+
+                            Container(
+                              margin: EdgeInsets.fromLTRB(0, 0.79, 12, 0),
+                              width: 21,
+                              height: 16.79,
+                              child: Image.asset(
+                                'assets/pe1.png',
+                                width: 21,
+                                height: 16.79,
+                              ),
+                            ),
+                            Text('Past Event Pictures',style: TextStyle(
+                              fontSize: 16,
+                              letterSpacing: 1,
+                              fontWeight: FontWeight.w400,
+                              height: 1.5,
+                              color: Color(0xffffffff),
+                            ),),
+                          ],
+                        ),
+                      ),
+                    ),
+                    GestureDetector(
+                      onTap: (){
+                        Navigator.pushNamed(context, 'feedbackpg');
+                      },
+                      child: Container(
+                        margin: EdgeInsets.fromLTRB(24, 0, 117, 15),
+                        padding: EdgeInsets.fromLTRB(26, 5, 30, 5),
+                        width: double.infinity,
+                        decoration: BoxDecoration(
+                          // color: Color(0xe5e87603),
+                          borderRadius:  BorderRadius.circular(10),
+                        ),
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Container(
+                              margin: EdgeInsets.fromLTRB(0, 0.79, 12, 0),
+                              width: 21,
+                              height: 16.79,
+                              child: Image.asset(
+                                'assets/f1.png',
+                                width: 21,
+                                height: 16.79,
+                              ),
+                            ),
+                            Text('Feedback',style: TextStyle(
+                              fontSize: 16,
+                              letterSpacing: 1,
+                              fontWeight: FontWeight.w400,
+                              height: 1.5,
+                              color: Color(0xffffffff),
+                            ),),
+                          ],
+                        ),
+                      ),
+                    ),
+                    GestureDetector(
+                      onTap: (){
+                        Navigator.pushNamed(context, 'contactpg');
+                      },
+                      child: Container(
+                        margin: EdgeInsets.fromLTRB(24, 0, 117, 15),
+                        padding: EdgeInsets.fromLTRB(26, 5, 30, 5),
+                        width: double.infinity,
+                        decoration: BoxDecoration(
+                          // color: Color(0xe5e87603),
+                          borderRadius:  BorderRadius.circular(10),
+                        ),
+                        child: Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+
+                            Container(
+                              margin: EdgeInsets.fromLTRB(0, 0.79, 12, 0),
+                              width: 21,
+                              height: 16.79,
+                              child: Image.asset(
+                                'assets/f2.png',
+                                width: 21,
+                                height: 16.79,
+                              ),
+                            ),
+                            Text('Contact Us',style: TextStyle(
                               fontSize: 16,
                               letterSpacing: 1,
                               fontWeight: FontWeight.w400,

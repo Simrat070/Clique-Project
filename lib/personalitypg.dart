@@ -124,7 +124,7 @@ class _PersonalitypgState extends State<Personalitypg> {
                             padding:  EdgeInsets.fromLTRB(2, 2, 2, 2),
                             width:  74,
                             height:  74,
-                            child: Image.asset('assets/e2.png',
+                            child: Image.asset('assets/person.png',
                               width:  74,
                               height:  74,
                             ),

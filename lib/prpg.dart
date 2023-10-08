@@ -42,13 +42,15 @@ class _PrpgState extends State<Prpg> {
                       ),
                     ),
                   ),
-                  Text('Personality club',
-                    style:TextStyle (
-                      fontSize:  18,
-                      letterSpacing: 1,
-                      fontWeight: FontWeight.w500,
-                      height:  1.5,
-                      color:  Color(0xe5ffffff),
+                  Expanded(
+                    child: Text('Public Relation club',
+                      style:TextStyle (
+                        fontSize:  18,
+                        letterSpacing: 1,
+                        fontWeight: FontWeight.w500,
+                        height:  1.5,
+                        color:  Color(0xe5ffffff),
+                      ),
                     ),
                   ),
                 ],
@@ -75,7 +77,7 @@ class _PrpgState extends State<Prpg> {
                             SizedBox(
                               width: 156,
                               height: 27,
-                              child: Text('        Darpan',
+                              child: Text('  Public Relation ',
                                 style: TextStyle(
                                   fontSize: 18,
                                   letterSpacing: 1,
@@ -98,15 +100,15 @@ class _PrpgState extends State<Prpg> {
                               height:  72,
                               child:
                               Text(
-                                'Darpan comes to you with the opportunity of '
-                                    'developing personality in ways through '
-                                    'which we learn not only to benefit others'
-                                    ' but ourselves as well. It provides opportunities '
-                                    'for persona; growth, self-awareness and skill'
-                                    ' development',
+                                'The PR Club at our college is a dynamic and creative'
+                                    ' student organization that specializes in photography,'
+                                    ' videography, and event coverage. With a passion for'
+                                    ' visual storytelling and a keen eye for detail, the'
+                                    ' club members are dedicated to capturing the'
+                                    ' essence of our college events and activities.',
                                 textAlign:  TextAlign.center,
                                 style:TextStyle (
-                                  fontSize:  12,
+                                  fontSize:  11,
                                   fontWeight:  FontWeight.w400,
                                   height:  1.2,
                                   color:  Colors.white,
@@ -124,7 +126,7 @@ class _PrpgState extends State<Prpg> {
                             padding:  EdgeInsets.fromLTRB(2, 2, 2, 2),
                             width:  74,
                             height:  74,
-                            child: Image.asset('assets/e2.png',
+                            child: Image.asset('assets/pr1.png',
                               width:  74,
                               height:  74,
                             ),

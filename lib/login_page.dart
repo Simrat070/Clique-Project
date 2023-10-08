@@ -1,3 +1,4 @@
+import 'package:cliquee/register.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -133,20 +134,8 @@ class _LoginPageState extends State<LoginPage> {
                   ],
                 ),
               ),
-              Container(
-                margin: EdgeInsets.fromLTRB(222, 0, 0, 24),
-                child: Text(
-                  'Forgot Password?',
-                  style: TextStyle(
-                    fontSize: 10,
-                    fontWeight: FontWeight.w400,
-                    height: 1.1725,
-                    fontStyle: FontStyle.italic,
-                    decoration: TextDecoration.underline,
-                    color: Color(0xffffffff),
-                    decorationColor: Color(0xffffffff),
-                  ),
-                ),
+              SizedBox(
+                height:20,
               ),
               Container(
                 //login box
@@ -166,7 +155,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
                 child: TextButton(
                   onPressed: (){
-                    Navigator.pushNamed(context, 'clubpg');
+                    Navigator.pushNamed(context, 'homepg');
                   },
                   child: Center(
                     child: Text(
@@ -181,49 +170,65 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 ),
               ),
-              Container(
-                //donthaveaccount signup
-                margin: EdgeInsets.fromLTRB(0, 0, 2, 54),
-                child: TextButton(
-                  onPressed: () {
-                    Navigator.pushNamed(context, 'register');
-                  },
-                  style: TextButton.styleFrom(
-                    padding: EdgeInsets.zero,
-                  ),
-                  child: RichText(
-                    text: TextSpan(
-                      style: TextStyle(
-                        fontSize: 12,
-                        fontWeight: FontWeight.w400,
-                        height: 1.171875,
-                        color: Color(0x99ffffff),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center, // Center the content horizontally
+                  children: [
+                    RichText(
+                      text: TextSpan(
+                        style: TextStyle(
+                          fontSize: 12,
+                          fontWeight: FontWeight.w400,
+                          height: 1.171875,
+                          color: Color(0x99ffffff),
+                        ),
+                        children: [
+                          TextSpan(
+                            text: 'Don’t have an Account? ',
+                            style: TextStyle(
+                              fontSize: 12,
+                              fontWeight: FontWeight.w500,
+                              height: 1.1725,
+                              color: Color(0xffffffff),
+                            ),
+                          ),
+                        ],
                       ),
-                      children: [
-                        TextSpan(
-                          text: 'Don’t have Account? ',
-                          style: TextStyle(
-                            fontSize: 12,
-                            fontWeight: FontWeight.w500,
-                            height: 1.1725,
-                            color: Color(0xffffffff),
-                          ),
-                        ),
-                        TextSpan(
-                          text: 'Sign Up',
-                          style: TextStyle(
-                            fontSize: 12,
-                            fontWeight: FontWeight.w500,
-                            height: 1.1725,
-                            decoration: TextDecoration.underline,
-                            color: Color(0xffe87603),
-                            decorationColor: Color(0xffe87603),
-                          ),
-                        ),
-                      ],
                     ),
-                  ),
+                    GestureDetector(
+                      onTap: () {
+                        // Navigate to the sign-up page when "Sign Up" is clicked.
+                        Navigator.of(context).pushReplacement(
+                          MaterialPageRoute(builder: (context) => Register()),
+                        );
+                      },
+                      child: RichText(
+                        text: TextSpan(
+                          style: TextStyle(
+                            fontSize: 12,
+                            fontWeight: FontWeight.w400,
+                            height: 1.171875,
+                            color: Color(0x99ffffff),
+                          ),
+                          children: [
+                            TextSpan(
+                              text: 'Sign Up',
+                              style: TextStyle(
+                                fontSize: 12,
+                                fontWeight: FontWeight.w500,
+                                height: 1.1725,
+                                decoration: TextDecoration.underline,
+                                color: Color(0xffe87603),
+                                decorationColor: Color(0xffe87603),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
+              SizedBox(
+                height:40,
               ),
               Container(
                 // group641tu (1:16)
@@ -235,6 +240,7 @@ class _LoginPageState extends State<LoginPage> {
                   height: 232,
                 ),
               ),
+
             ],
           ),
         ),
