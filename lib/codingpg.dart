@@ -269,7 +269,9 @@ class _CodingpgState extends State<Codingpg> {
                     margin:  EdgeInsets.fromLTRB(16,0, 15,0),
                     child:
                     TextButton(
-                      onPressed:  () {},
+                      onPressed:  () {
+                        Navigator.pushNamed(context, 'joinclubpg');
+                      },
                       style:  TextButton.styleFrom (
                         padding:  EdgeInsets.zero,
                       ),

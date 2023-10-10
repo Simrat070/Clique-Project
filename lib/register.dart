@@ -35,190 +35,85 @@ class _RegisterState extends State<Register> {
                 ),
               ),
               Container(
-                margin: EdgeInsets.fromLTRB(0, 0, 160, 40),
-                child: Text(
-                  'Sign Up',
-                  style: TextStyle(
-                    fontSize: 48,
-                    fontWeight: FontWeight.w700,
-                    height: 0.895833,
-                    color: Color(0xffff8000),
+                margin: EdgeInsets.fromLTRB(0, 0, 0, 40),
+                child: Expanded(
+                  child: Text(
+                    'Sign Up',
+                    style: TextStyle(
+                      fontSize: 48,
+                      fontWeight: FontWeight.w700,
+                      height: 0.895833,
+                      color: Color(0xffff8000),
+                    ),
                   ),
                 ),
               ),
-              Container(
-                margin: EdgeInsets.fromLTRB(0, 0, 0, 15),
-                padding: EdgeInsets.fromLTRB(21, 10, 134, 9),
-                width: double.infinity,
-                decoration: BoxDecoration(
-                  color: Color(0xffffffff),
-                  borderRadius: BorderRadius.circular(30),
-                ),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Container(
-                      margin: EdgeInsets.fromLTRB(0, 0, 13, 1),
-                      width: 15,
-                      height: 14,
-                      child: Image.asset(
-                        'assets/r1.png',
-                        width: 15,
-                        height: 14,
-                      ),
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal:10),
+                child: Container(
+                  margin: EdgeInsets.symmetric(vertical: 10),
+                  padding: EdgeInsets.symmetric(horizontal: 35),
+                  height: 40,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.orange), // Orange border
+                    borderRadius: BorderRadius.circular(37),
+                  ),
+                  child: TextField(
+                    decoration: InputDecoration(
+                      hintText: 'Enter Your Name', // Hint text
+                      hintStyle: TextStyle(color: Colors.white),
+                      border: InputBorder.none, // Remove default border
                     ),
-                    Expanded(
-                      ///1st
-                      child: Container(
-                        height: 17,
-                        child: TextField(
-                          decoration: InputDecoration(
-                            fillColor: Color(0xb2000000),
-                            hintText: 'Enter Your Name',
-                            border: InputBorder.none,
-                            contentPadding: EdgeInsets.symmetric(vertical: 8),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
+                    style: TextStyle(color: Colors.white),
+                  ),
                 ),
               ),
-              Container(
-                margin: EdgeInsets.fromLTRB(0, 0, 0, 15),
-                padding: EdgeInsets.fromLTRB(21, 10, 96, 9),
-                width: double.infinity,
-                decoration: BoxDecoration(
-                  color: Color(0xffffffff),
-                  borderRadius: BorderRadius.circular(37),
-                ),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Container(
-                      margin: EdgeInsets.fromLTRB(0, 0, 13, 1),
-                      width: 15,
-                      height: 14,
-                      child: Image.asset(
-                        'assets/r2.png',
-                        width: 15,
-                        height: 14,
-                      ),
+
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal:10),
+                child: Container(
+                  margin: EdgeInsets.symmetric(vertical: 10),
+                  padding: EdgeInsets.symmetric(horizontal: 35),
+                  height: 40,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.orange), // Orange border
+                    borderRadius: BorderRadius.circular(37),
+                  ),
+                  child: TextField(
+                    decoration: InputDecoration(
+                      hintText: 'University Roll Number', // Hint text
+                      hintStyle: TextStyle(color: Colors.white),
+                      border: InputBorder.none, // Remove default border
                     ),
-                    Expanded(
-                      ///2nd
-                      child: Container(
-                        height: 17,
-                        child: TextField(
-                          decoration: InputDecoration(
-                            fillColor: Color(0xb2000000),
-                            hintText: 'University Roll Number',
-                            border: InputBorder.none,
-                            contentPadding: EdgeInsets.symmetric(vertical: 8),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
+                    style: TextStyle(color: Colors.white),
+                  ),
                 ),
               ),
-              Container(
-                margin: EdgeInsets.fromLTRB(0, 0, 0, 15),
-                padding: EdgeInsets.fromLTRB(21, 8, 77, 8),
-                width: double.infinity,
-                decoration: BoxDecoration(
-                  color: Color(0xffffffff),
-                  borderRadius: BorderRadius.circular(37),
-                ),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Container(
-                      margin: EdgeInsets.fromLTRB(0, 0, 3, 0),
-                      width: 20,
-                      height: 14,
-                      child: Image.asset(
-                        'assets/r3.png',
-                        width: 20,
-                        height: 14,
-                      ),
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal:10),
+                child: Container(
+                  margin: EdgeInsets.symmetric(vertical: 10),
+                  padding: EdgeInsets.symmetric(horizontal: 35),
+                  height: 40,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.orange), // Orange border
+                    borderRadius: BorderRadius.circular(37),
+                  ),
+                  child: TextField(
+                    decoration: InputDecoration(
+                      hintText: 'Create Password', // Hint text
+                      hintStyle: TextStyle(color: Colors.white),
+                      border: InputBorder.none, // Remove default border
                     ),
-                    Container(
-                      margin: EdgeInsets.fromLTRB(0, 0, 9, 0),
-                      child: Text(
-                        '+91',
-                        style: TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.w400,
-                          height: 1.5,
-                          color: Color(0xff000000),
-                        ),
-                      ),
-                    ),
-                    Expanded(
-                      child: Container(
-                        height: 17,
-                        child: TextField(
-                          decoration: InputDecoration(
-                            fillColor: Color(0xb2000000),
-                            hintText: 'Enter Your Phone Number',
-                            border: InputBorder.none,
-                            contentPadding: EdgeInsets.symmetric(vertical: 8),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
+                    style: TextStyle(color: Colors.white),
+                  ),
                 ),
               ),
-              Container(
-                margin: EdgeInsets.fromLTRB(0, 0, 0, 30),
-                padding: EdgeInsets.fromLTRB(21, 10, 16, 9),
-                width: double.infinity,
-                decoration: BoxDecoration(
-                  color: Color(0xffffffff),
-                  borderRadius: BorderRadius.circular(37),
-                ),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Container(
-                      margin: EdgeInsets.fromLTRB(0, 0, 12, 1),
-                      width: 15,
-                      height: 14,
-                      child: Image.asset(
-                        'assets/r4.png',
-                        width: 15,
-                        height: 14,
-                      ),
-                    ),
-                    Expanded(
-                      ///2nd
-                      child: Container(
-                        height: 17,
-                        child: TextFormField(
-                          obscureText: true,
-                          decoration: InputDecoration(
-                            fillColor: Color(0xb2000000),
-                            hintText: 'Create Password',
-                            border: InputBorder.none,
-                            contentPadding: EdgeInsets.symmetric(vertical: 8),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Container(
-                      margin: EdgeInsets.fromLTRB(40, 0, 0, 1),
-                      width: 18,
-                      height: 12,
-                      child: Image.asset(
-                        "assets/r5.png",
-                        width: 18,
-                        height: 12,
-                      ),
-                    ),
-                  ],
-                ),
+              SizedBox(
+                height: 20,
               ),
               Container(
                 margin: EdgeInsets.fromLTRB(40, 0, 40, 9),
@@ -237,7 +132,7 @@ class _RegisterState extends State<Register> {
                 ),
                 child: TextButton(
                   onPressed: () {
-                    Navigator.pushNamed(context, 'verify');
+                    Navigator.pushNamed(context, 'mobilepg');
                   },
                   child: Center(
                     child: Text(
@@ -251,6 +146,9 @@ class _RegisterState extends State<Register> {
                     ),
                   ),
                 ),
+              ),
+              SizedBox(
+                height: 10,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center, // Center the content horizontally

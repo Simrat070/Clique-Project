@@ -52,7 +52,7 @@ class _VerifyState extends State<Verify> {
                     maxWidth: 251,
                   ),
                   child: Text(
-                    'We have sent a verification code to\n+91- 7880652040',
+                    'We have sent a verification code ',
                     textAlign: TextAlign.center,
                     style: TextStyle(
                       fontSize: 16,

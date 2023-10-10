@@ -7,7 +7,10 @@ import 'package:cliquee/editorialpg.dart';
 import 'package:cliquee/epg.dart';
 import 'package:cliquee/feedbackpg.dart';
 import 'package:cliquee/homepage.dart';
+import 'package:cliquee/joinclubpg.dart';
+import 'package:cliquee/joinconfirmpg.dart';
 import 'package:cliquee/login_page.dart';
+import 'package:cliquee/mobilepg.dart';
 import 'package:cliquee/pasteventpg.dart';
 import 'package:cliquee/personalitypg.dart';
 import 'package:cliquee/prpg.dart';
@@ -27,7 +30,8 @@ void main() {
       'splashscreen': (context) => SplashScreen(),
       'login': (context) => LoginPage(),
       'register': (context) => Register(),
-      'verify': (context) => Verify(),
+      'mobilepg' :(context) => Mobilepg(),
+      'verifypg': (context) => Verify(),
       'homepg': (context) => Homepg(),
       'clubpg': (context) => Clubpg(),
       'editorialpg': (context) => Editorialpg(),
@@ -40,6 +44,8 @@ void main() {
       'feedbackpg' :(context) => Feedbackpg(),
       'contactpg' :(context) => Contactpg(),
       'pasteventpg' :(context) => Pasteventpg(),
+      'joinclubpg' :(context) => Joinclubpg(),
+      'joinconfirmpg' :(context) => Joinconfirm(),
     },
   ));
 }

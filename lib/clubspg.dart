@@ -453,6 +453,7 @@ class _ClubpgState extends State<Clubpg> {
                         ),
                       ),
                     ),
+
                     GestureDetector(
                       onTap: (){
                         Navigator.pushNamed(context, 'contactpg');
@@ -488,6 +489,34 @@ class _ClubpgState extends State<Clubpg> {
                             ),),
                           ],
                         ),
+                      ),
+                    ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    Container(
+                      //login box
+                      margin: EdgeInsets.fromLTRB(70, 0, 70, 9),
+                      width: 120,
+                      height: 40,
+                      decoration: BoxDecoration(
+                        color: Color.fromRGBO(46, 46, 46, 1),
+                        borderRadius: BorderRadius.circular(30),
+
+                      ),
+                      child: TextButton(
+                        onPressed: (){
+                          Navigator.pushNamed(context, 'homepg');
+                        },
+                          child: Text(
+                            'Logout',
+                            style: TextStyle(
+                              fontSize: 14,
+                              fontWeight: FontWeight.w700,
+                              height: 1.5,
+                              color: Color(0xffd16a03),
+                            ),
+                          ),
                       ),
                     ),
                   ]

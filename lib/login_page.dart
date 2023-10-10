@@ -10,8 +10,9 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext Context) {
     return Scaffold(
       //background
       backgroundColor: Color(0xff000000),
@@ -44,94 +45,47 @@ class _LoginPageState extends State<LoginPage> {
                       color: Color(0xffff8000),
                     ),
                   )),
-              Container(
-                //text Box
-                margin: EdgeInsets.fromLTRB(30, 0, 30, 15),
-                padding: EdgeInsets.fromLTRB(21, 10, 178, 9),
-                decoration: BoxDecoration(
-                  color: Color(0xffffffff),
-                  borderRadius: BorderRadius.circular(30),
-                ),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Container(
-                      //username icon
-                      margin: EdgeInsets.fromLTRB(0, 0, 13, 1),
-                      width: 15,
-                      height: 20,
-                      child: Image.asset(
-                        'assets/r1.png',
-                        width: 15,
-                        height: 14,
-                      ),
+
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal:30),
+                child: Container(
+                  margin: EdgeInsets.symmetric(vertical: 10),
+                  padding: EdgeInsets.symmetric(horizontal: 35),
+                  height: 40,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.orange), // Orange border
+                    borderRadius: BorderRadius.circular(37),
+                  ),
+                  child: TextField(
+                    decoration: InputDecoration(
+                      hintText: 'Username', // Hint text
+                      hintStyle: TextStyle(color: Colors.white),
+                      border: InputBorder.none, // Remove default border
                     ),
-                    Expanded(
-                      ///2nd
-                      child: Container(
-                        height: 17,
-                        child: TextFormField(
-                          obscureText: true,
-                          decoration: InputDecoration(
-                            fillColor: Color(0xb2000000),
-                            hintText: 'Username',
-                            border: InputBorder.none,
-                            contentPadding: EdgeInsets.symmetric(vertical: 8),
-                          ),
-                        ),
-                      ),
-                    ),
-                  ],
+                    style: TextStyle(color: Colors.white),
+                  ),
                 ),
               ),
-              Container(
-                margin: EdgeInsets.fromLTRB(30, 0, 30, 3),
-                padding: EdgeInsets.fromLTRB(21, 10, 16, 9),
-                width: double.infinity,
-                decoration: BoxDecoration(
-                  color: Color(0xffffffff),
-                  borderRadius: BorderRadius.circular(37),
-                ),
-                child: Row(
-                  crossAxisAlignment: CrossAxisAlignment.center,
-                  children: [
-                    Container(
-                      //password icon
-                      margin: EdgeInsets.fromLTRB(0, 0, 13, 1),
-                      width: 15,
-                      height: 20,
-                      child: Image.asset(
-                        'assets/r4.png',
-                        width: 15,
-                        height: 14,
-                      ),
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal:30),
+                child: Container(
+                  margin: EdgeInsets.symmetric(vertical: 10),
+                  padding: EdgeInsets.symmetric(horizontal: 35),
+                  height: 40,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.orange), // Orange border
+                    borderRadius: BorderRadius.circular(37),
+                  ),
+                  child: TextField(
+                    decoration: InputDecoration(
+                      hintText: 'Password', // Hint text
+                      hintStyle: TextStyle(color: Colors.white),
+                      border: InputBorder.none, // Remove default border
                     ),
-                    Expanded(
-                      ///2nd
-                      child: Container(
-                        height: 17,
-                        child: TextFormField(
-                          obscureText: true,
-                          decoration: InputDecoration(
-                            fillColor: Color(0xb2000000),
-                            hintText: 'Password',
-                            border: InputBorder.none,
-                            contentPadding: EdgeInsets.symmetric(vertical: 8),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Container(
-                      margin: EdgeInsets.fromLTRB(50, 0, 0, 1),
-                      width: 18,
-                      height: 20,
-                      child: Image.asset(
-                        "assets/r5.png",
-                        width: 18,
-                        height: 10,
-                      ),
-                    ),
-                  ],
+                    style: TextStyle(color: Colors.white),
+                  ),
                 ),
               ),
               SizedBox(
@@ -170,6 +124,9 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                 ),
               ),
+                SizedBox(
+                  height: 20,
+                ),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center, // Center the content horizontally
                   children: [
