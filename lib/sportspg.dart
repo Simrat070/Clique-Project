@@ -158,8 +158,8 @@ class _SportspgState extends State<Sportspg> {
                     ),
                   ),
                   Container(
-                    margin:  EdgeInsets.fromLTRB(94, 0, 95, 18),
-                    width:  double.infinity,
+                    margin:  EdgeInsets.fromLTRB(0, 0, 0, 18),
+                    width:  200,
                     height:  29,
                     decoration:  BoxDecoration (
                       color:  Color(0xffe87603),
@@ -179,23 +179,28 @@ class _SportspgState extends State<Sportspg> {
                       ),
                     ),
                   ),
-                  Container(
-                    margin:  EdgeInsets.fromLTRB(0, 0,190, 30),
-                    child:
-                    Text(
-                      '* Mohit Sharma    (4th year)\n'
-                      '* Surya Prakash    (4th Year)',
-                      style: TextStyle (
-                        fontSize:  13,
-                        fontWeight:  FontWeight.w400,
-                        height:  1.5,
-                        color:Colors.white,
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Container(
+                        margin:  EdgeInsets.fromLTRB(20, 0,0, 30),
+                        child:
+                        Text(
+                          '* Mohit Sharma    (4th year)\n'
+                          '* Surya Prakash    (4th Year)',
+                          style: TextStyle (
+                            fontSize:  13,
+                            fontWeight:  FontWeight.w400,
+                            height:  1.5,
+                            color:Colors.white,
+                          ),
+                        ),
                       ),
-                    ),
+                    ],
                   ),
                   Container(
-                    margin:  EdgeInsets.fromLTRB(94, 0, 95, 18),
-                    width:  double.infinity,
+                    margin:  EdgeInsets.fromLTRB(0, 0, 0, 18),
+                    width:  200,
                     height:  29,
                     decoration:  BoxDecoration (
                       color:  Color(0xffe87603),
@@ -215,22 +220,27 @@ class _SportspgState extends State<Sportspg> {
                       ),
                     ),
                   ),
-                  Container(
-                    margin:  EdgeInsets.fromLTRB(0, 0, 210, 30),
-                    child:
-                    Text(
-                      '* Kushagra    (3rd year)',
-                      style: TextStyle (
-                        fontSize:  13,
-                        fontWeight:  FontWeight.w400,
-                        height:  1.5,
-                        color:  Color(0xf2ffffff),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Container(
+                        margin:  EdgeInsets.fromLTRB(20, 0, 0, 30),
+                        child:
+                        Text(
+                          '* Kushagra    (3rd year)',
+                          style: TextStyle (
+                            fontSize:  13,
+                            fontWeight:  FontWeight.w400,
+                            height:  1.5,
+                            color:  Color(0xf2ffffff),
+                          ),
+                        ),
                       ),
-                    ),
+                    ],
                   ),
                   Container(
-                    margin:  EdgeInsets.fromLTRB(95, 0, 94, 18),
-                    width:  double.infinity,
+                    margin:  EdgeInsets.fromLTRB(0, 0, 0, 18),
+                    width: 200,
                     height:  29,
                     decoration:  BoxDecoration (
                       color:  Color(0xffe87603),
@@ -248,28 +258,33 @@ class _SportspgState extends State<Sportspg> {
                       ),
                     ),
                   ),
-                  Container(
-                    margin:  EdgeInsets.fromLTRB(0, 0,180,10),
-                    constraints:  BoxConstraints (
-                      maxWidth:  311,
-                    ),
-                    child:
-                    Text(
-                      '* Kamni    (3rd year)\n'
-                          '* Mani Tyagi    (3rd year)\n'
-                          '* Aditya Sharma    (3rd year)\n'
-                          '* Garima    (2nd Year)\n'
-                          '* Ajay    (3rd year)\n'
-                          '* Ankita    (2nd Year)\n'
-                          '* Aryan Kumar    (2nd Year)\n'
-                          '* Utkarsh    (2nd Year)\n',
-                      style: TextStyle(
-                        fontSize:  13,
-                        fontWeight:  FontWeight.w400,
-                        height:  1.5,
-                        color:  Color(0xf2ffffff),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Container(
+                        margin:  EdgeInsets.fromLTRB(20, 0,0,10),
+                        constraints:  BoxConstraints (
+                          maxWidth:  311,
+                        ),
+                        child:
+                        Text(
+                          '* Kamni    (3rd year)\n'
+                              '* Mani Tyagi    (3rd year)\n'
+                              '* Aditya Sharma    (3rd year)\n'
+                              '* Garima    (2nd Year)\n'
+                              '* Ajay    (3rd year)\n'
+                              '* Ankita    (2nd Year)\n'
+                              '* Aryan Kumar    (2nd Year)\n'
+                              '* Utkarsh    (2nd Year)\n',
+                          style: TextStyle(
+                            fontSize:  13,
+                            fontWeight:  FontWeight.w400,
+                            height:  1.5,
+                            color:  Color(0xf2ffffff),
+                          ),
+                        ),
                       ),
-                    ),
+                    ],
                   ),
                   Container(
                     margin:  EdgeInsets.fromLTRB(16,0, 15,0),

@@ -1,0 +1,174 @@
+import 'package:flutter/material.dart';
+
+class Adminlogin extends StatefulWidget {
+  const Adminlogin({super.key});
+
+  @override
+  State<Adminlogin> createState() => _AdminloginState();
+}
+
+class _AdminloginState extends State<Adminlogin> {
+  bool isObscured = true;
+
+  void toggleObscureText() {
+    setState(() {
+      isObscured = !isObscured;
+    });
+  }
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      //background
+      backgroundColor: Color(0xff000000),
+      body: SingleChildScrollView(
+        child: Container(
+          padding: EdgeInsets.fromLTRB(0, 109, 0, 0),
+          child: Column(
+            // crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Container(
+                //logo
+                margin: EdgeInsets.fromLTRB(1, 0, 0, 62),
+                width: 55,
+                height: 63,
+                child: Image.asset(
+                  'assets/cliquelogo.png',
+                  width: 55,
+                  height: 63,
+                ),
+              ),
+              Container(
+                //login
+                  margin: EdgeInsets.all(20),
+                  child: Text(
+                    'Log In as admin',
+                    style: TextStyle(
+                      fontSize: 48,
+                      fontWeight: FontWeight.w700,
+                      height: 0.8958333333,
+                      color: Color(0xffff8000),
+                    ),
+                  )),
+
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal:30),
+                child: Container(
+                  margin: EdgeInsets.symmetric(vertical: 10),
+                  padding: EdgeInsets.symmetric(horizontal: 10),
+                  height: 40,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.orange), // Orange border
+                    borderRadius: BorderRadius.circular(37),
+                  ),
+                  child: TextField(
+                    decoration: InputDecoration(
+                      prefixIcon: Icon(
+                        Icons.account_circle,
+                        color: Colors.white,
+                      ),
+                      hintText: 'Username', // Hint text
+                      hintStyle: TextStyle(color: Colors.white),
+
+                      border: InputBorder.none, // Remove default border
+                    ),
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ),
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal:30),
+                child: Container(
+                  margin: EdgeInsets.symmetric(vertical: 10),
+                  padding: EdgeInsets.symmetric(horizontal: 10),
+                  height: 40,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.orange), // Orange border
+                    borderRadius: BorderRadius.circular(37),
+                  ),
+                  child: TextField(
+                    obscureText: true,
+                    decoration: InputDecoration(
+                      prefixIcon: Icon(
+                        Icons.password,
+                        color: Colors.white,
+                      ),
+                      hintText: 'Password', // Hint text
+                      hintStyle: TextStyle(color: Colors.white),
+                      suffixIcon: GestureDetector(
+                        onTap: toggleObscureText,
+                        child: Icon(
+                          isObscured ? Icons.visibility : Icons.visibility_off,
+                          // Icon on the right side
+                          color: Colors.white,
+                        ),
+                      ),
+                      border: InputBorder.none, // Remove default border
+                    ),
+                    style: TextStyle(color: Colors.white),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height:20,
+              ),
+              Container(
+                //login box
+                margin: EdgeInsets.fromLTRB(70, 0, 70, 9),
+                width: double.infinity,
+                height: 40,
+                decoration: BoxDecoration(
+                  color: Color(0xffe87603),
+                  borderRadius: BorderRadius.circular(30),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Color(0x7fffffff),
+                      offset: Offset(0, 2),
+                      blurRadius: 2,
+                    ),
+                  ],
+                ),
+                child: TextButton(
+                  onPressed: (){
+                    Navigator.pushNamed(context, 'arequestpage');
+                  },
+                  child: Center(
+                    child: Text(
+                      'Log In',
+                      style: TextStyle(
+                        fontSize: 14,
+                        fontWeight: FontWeight.w700,
+                        height: 1.5,
+                        color: Color(0xffffffff),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+
+              SizedBox(
+                height:40,
+              ),
+              Container(
+                // group641tu (1:16)
+                width: 360,
+                height: 232,
+                child: Image.asset(
+                  'assets/login2.png',
+                  width: 360,
+                  height: 232,
+                ),
+              ),
+
+            ],
+          ),
+        ),
+
+      ),
+    );
+  }
+}

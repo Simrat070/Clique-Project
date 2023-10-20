@@ -20,7 +20,7 @@ class _PrpgState extends State<Prpg> {
               height: 35,
             ),
             Container(
-              padding: EdgeInsets.fromLTRB(31,11,178,7),
+              padding: EdgeInsets.fromLTRB(31,11,0,7),
               width: double.infinity,
               decoration: BoxDecoration (
                 color:  Color(0xff000000),
@@ -156,8 +156,8 @@ class _PrpgState extends State<Prpg> {
                     ),
                   ),
                   Container(
-                    margin:  EdgeInsets.fromLTRB(94, 0, 95, 18),
-                    width:  double.infinity,
+                    margin:  EdgeInsets.fromLTRB(0, 0, 0, 18),
+                    width:  200,
                     height:  29,
                     decoration:  BoxDecoration (
                       color:  Color(0xffe87603),
@@ -177,22 +177,28 @@ class _PrpgState extends State<Prpg> {
                       ),
                     ),
                   ),
-                  Container(
-                    margin:  EdgeInsets.fromLTRB(0, 0,190, 30),
-                    child:
-                    Text(
-                      '* Simrat Kaur    (4th year)',
-                      style: TextStyle (
-                        fontSize:  13,
-                        fontWeight:  FontWeight.w400,
-                        height:  1.5,
-                        color:Colors.white,
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Container(
+                        margin:  EdgeInsets.fromLTRB(20, 0,0, 30),
+                        child:
+                        Text(
+                          '* Simranpreet Kaur    (4th year)\n'
+                          '* Parag Sharma    (4th year)',
+                          style: TextStyle (
+                            fontSize:  13,
+                            fontWeight:  FontWeight.w400,
+                            height:  1.5,
+                            color:Colors.white,
+                          ),
+                        ),
                       ),
-                    ),
+                    ],
                   ),
                   Container(
-                    margin:  EdgeInsets.fromLTRB(94, 0, 95, 18),
-                    width:  double.infinity,
+                    margin:  EdgeInsets.fromLTRB(0, 0, 0, 18),
+                    width:  200,
                     height:  29,
                     decoration:  BoxDecoration (
                       color:  Color(0xffe87603),
@@ -212,22 +218,27 @@ class _PrpgState extends State<Prpg> {
                       ),
                     ),
                   ),
-                  Container(
-                    margin:  EdgeInsets.fromLTRB(0, 0, 175, 30),
-                    child:
-                    Text(
-                      '* Kashvi Sinha    (3rd year)',
-                      style: TextStyle (
-                        fontSize:  13,
-                        fontWeight:  FontWeight.w400,
-                        height:  1.5,
-                        color:  Color(0xf2ffffff),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Container(
+                        margin:  EdgeInsets.fromLTRB(20, 0, 0, 30),
+                        child:
+                        Text(
+                          '* Yash Singh   (3rd year)',
+                          style: TextStyle (
+                            fontSize:  13,
+                            fontWeight:  FontWeight.w400,
+                            height:  1.5,
+                            color:  Color(0xf2ffffff),
+                          ),
+                        ),
                       ),
-                    ),
+                    ],
                   ),
                   Container(
-                    margin:  EdgeInsets.fromLTRB(95, 0, 94, 18),
-                    width:  double.infinity,
+                    margin:  EdgeInsets.fromLTRB(0, 0, 0, 18),
+                    width: 200,
                     height:  29,
                     decoration:  BoxDecoration (
                       color:  Color(0xffe87603),
@@ -245,26 +256,30 @@ class _PrpgState extends State<Prpg> {
                       ),
                     ),
                   ),
-                  Container(
-                    margin:  EdgeInsets.fromLTRB(0, 0,180,30),
-                    constraints:  BoxConstraints (
-                      maxWidth:  311,
-                    ),
-                    child:
-                    Text(
-                      '* Umar    (3rd year)\n'
-                          '* Aditya    (3rd year)\n'
-                          '* Yash Singh    (3rd year)\n'
-                          '* Yogita    (2nd Year)\n'
-                          '* Srishti    (2nd year)\n'
-                          '* Utkarsh    (2nd Year)\n',
-                      style: TextStyle(
-                        fontSize:  13,
-                        fontWeight:  FontWeight.w400,
-                        height:  1.5,
-                        color:  Color(0xf2ffffff),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Container(
+                        margin:  EdgeInsets.fromLTRB(20, 0,0,30),
+                        constraints:  BoxConstraints (
+                          maxWidth:  311,
+                        ),
+                        child:
+                        Text(
+                          '* Nikunj    (3rd year)\n'
+                              '* Ishita Gupta    (3rd year)\n'
+                              '* Indra    (3rd year)\n'
+                              '* Shaurya    (2nd Year)\n'
+                              '* Utkarsh    (2nd Year)\n',
+                          style: TextStyle(
+                            fontSize:  13,
+                            fontWeight:  FontWeight.w400,
+                            height:  1.5,
+                            color:  Color(0xf2ffffff),
+                          ),
+                        ),
                       ),
-                    ),
+                    ],
                   ),
                   Container(
                     margin:  EdgeInsets.fromLTRB(16,0, 15,0),

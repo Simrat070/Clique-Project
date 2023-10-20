@@ -158,8 +158,8 @@ class _EpgState extends State<Epg> {
                     ),
                   ),
                   Container(
-                    margin:  EdgeInsets.fromLTRB(94, 0, 95, 18),
-                    width:  double.infinity,
+                    margin:  EdgeInsets.fromLTRB(0, 0, 0, 18),
+                    width:  200,
                     height:  29,
                     decoration:  BoxDecoration (
                       color:  Color(0xffe87603),
@@ -179,22 +179,27 @@ class _EpgState extends State<Epg> {
                       ),
                     ),
                   ),
-                  Container(
-                    margin:  EdgeInsets.fromLTRB(0, 0,210, 30),
-                    child:
-                    Text(
-                      '* Nirmal S    (3rd year)',
-                      style: TextStyle (
-                        fontSize:  13,
-                        fontWeight:  FontWeight.w400,
-                        height:  1.5,
-                        color:Colors.white,
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Container(
+                        margin:  EdgeInsets.fromLTRB(20, 0,0, 30),
+                        child:
+                        Text(
+                          '* Nirmal S    (3rd year)',
+                          style: TextStyle (
+                            fontSize:  13,
+                            fontWeight:  FontWeight.w400,
+                            height:  1.5,
+                            color:Colors.white,
+                          ),
+                        ),
                       ),
-                    ),
+                    ],
                   ),
                   Container(
-                    margin:  EdgeInsets.fromLTRB(94, 0, 95, 18),
-                    width:  double.infinity,
+                    margin:  EdgeInsets.fromLTRB(0, 0, 0, 18),
+                    width:  200,
                     height:  29,
                     decoration:  BoxDecoration (
                       color:  Color(0xffe87603),
@@ -214,22 +219,27 @@ class _EpgState extends State<Epg> {
                       ),
                     ),
                   ),
-                  Container(
-                    margin:  EdgeInsets.fromLTRB(0, 0, 170, 30),
-                    child:
-                    Text(
-                      '* Vansh Bhandari    (3rd year)',
-                      style: TextStyle (
-                        fontSize:  13,
-                        fontWeight:  FontWeight.w400,
-                        height:  1.5,
-                        color:  Color(0xf2ffffff),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Container(
+                        margin:  EdgeInsets.fromLTRB(20, 0, 0, 30),
+                        child:
+                        Text(
+                          '* Vansh Bhandari    (3rd year)',
+                          style: TextStyle (
+                            fontSize:  13,
+                            fontWeight:  FontWeight.w400,
+                            height:  1.5,
+                            color:  Color(0xf2ffffff),
+                          ),
+                        ),
                       ),
-                    ),
+                    ],
                   ),
                   Container(
-                    margin:  EdgeInsets.fromLTRB(95, 0, 94, 18),
-                    width:  double.infinity,
+                    margin:  EdgeInsets.fromLTRB(0, 0, 0, 18),
+                    width:  200,
                     height:  29,
                     decoration:  BoxDecoration (
                       color:  Color(0xffe87603),
@@ -247,26 +257,31 @@ class _EpgState extends State<Epg> {
                       ),
                     ),
                   ),
-                  Container(
-                    margin:  EdgeInsets.fromLTRB(0, 0,210,40),
-                    constraints:  BoxConstraints (
-                      maxWidth:  311,
-                    ),
-                    child:
-                    Text(
-                      '* Prashant    (3rd year)\n'
-                          '* Sahil    (2nd year)\n'
-                          '* Jyotika    (2nd year)\n'
-                          '* Saurav    (2nd Year)\n'
-                          '* Jai Dev    (2nd year)\n'
-                          '* Ishaan    (2nd Year)\n',
-                      style: TextStyle(
-                        fontSize:  13,
-                        fontWeight:  FontWeight.w400,
-                        height:  1.5,
-                        color:  Color(0xf2ffffff),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Container(
+                        margin:  EdgeInsets.fromLTRB(20, 0,0,40),
+                        constraints:  BoxConstraints (
+                          maxWidth:  311,
+                        ),
+                        child:
+                        Text(
+                          '* Prashant    (3rd year)\n'
+                              '* Sahil    (2nd year)\n'
+                              '* Jyotika    (2nd year)\n'
+                              '* Saurav    (2nd Year)\n'
+                              '* Jai Dev    (2nd year)\n'
+                              '* Ishaan    (2nd Year)\n',
+                          style: TextStyle(
+                            fontSize:  13,
+                            fontWeight:  FontWeight.w400,
+                            height:  1.5,
+                            color:  Color(0xf2ffffff),
+                          ),
+                        ),
                       ),
-                    ),
+                    ],
                   ),
                   Container(
                     margin:  EdgeInsets.fromLTRB(16,0, 15,0),

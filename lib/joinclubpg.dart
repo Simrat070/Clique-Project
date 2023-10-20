@@ -197,20 +197,23 @@ class _JoinclubpgState extends State<Joinclubpg> {
                   ),
                 ),
               ),
-              Container(
-                margin: EdgeInsets.only(bottom: 0),
-                width: double.infinity,
-                height: 362,
-                child: Image.asset(
-                  "assets/j2.png",
-                  width: double.infinity,
-                  height: 362,
-                ),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: [
+                  Container(
+                    margin: EdgeInsets.only(bottom: 0),
+                    width: double.infinity,
+                    height: 362,
+                    child: Image.asset(
+                      "assets/j2.png",
+                      width: double.infinity,
+                      height: 362,
+                    ),
+                  ),
+                ],
               ),
             ]
-
         ),
-
 
     ),
     );

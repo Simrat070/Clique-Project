@@ -10,6 +10,13 @@ class LoginPage extends StatefulWidget {
 }
 
 class _LoginPageState extends State<LoginPage> {
+  bool isObscured = true;
+
+  void toggleObscureText() {
+    setState(() {
+      isObscured = !isObscured;
+    });
+  }
 
   @override
   Widget build(BuildContext Context) {
@@ -33,24 +40,29 @@ class _LoginPageState extends State<LoginPage> {
                   height: 63,
                 ),
               ),
-              Container(
-                  //login
-                  margin: EdgeInsets.fromLTRB(0, 0, 200, 40),
-                  child: Text(
-                    'Log In',
-                    style: TextStyle(
-                      fontSize: 48,
-                      fontWeight: FontWeight.w700,
-                      height: 0.8958333333,
-                      color: Color(0xffff8000),
-                    ),
-                  )),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.start,
+                children: [
+                  Container(
+                      //login
+                      margin: EdgeInsets.fromLTRB(30, 0, 0, 40),
+                      child: Text(
+                        'Log In',
+                        style: TextStyle(
+                          fontSize: 48,
+                          fontWeight: FontWeight.w700,
+                          height: 0.8958333333,
+                          color: Color(0xffff8000),
+                        ),
+                      )),
+                ],
+              ),
 
               Padding(
                 padding: EdgeInsets.symmetric(horizontal:30),
                 child: Container(
                   margin: EdgeInsets.symmetric(vertical: 10),
-                  padding: EdgeInsets.symmetric(horizontal: 35),
+                  padding: EdgeInsets.symmetric(horizontal: 10),
                   height: 40,
                   width: double.infinity,
                   decoration: BoxDecoration(
@@ -59,8 +71,13 @@ class _LoginPageState extends State<LoginPage> {
                   ),
                   child: TextField(
                     decoration: InputDecoration(
+                      prefixIcon: Icon(
+                        Icons.account_circle,
+                        color: Colors.white,
+                      ),
                       hintText: 'Username', // Hint text
                       hintStyle: TextStyle(color: Colors.white),
+
                       border: InputBorder.none, // Remove default border
                     ),
                     style: TextStyle(color: Colors.white),
@@ -71,7 +88,7 @@ class _LoginPageState extends State<LoginPage> {
                 padding: EdgeInsets.symmetric(horizontal:30),
                 child: Container(
                   margin: EdgeInsets.symmetric(vertical: 10),
-                  padding: EdgeInsets.symmetric(horizontal: 35),
+                  padding: EdgeInsets.symmetric(horizontal: 10),
                   height: 40,
                   width: double.infinity,
                   decoration: BoxDecoration(
@@ -79,9 +96,22 @@ class _LoginPageState extends State<LoginPage> {
                     borderRadius: BorderRadius.circular(37),
                   ),
                   child: TextField(
+                    obscureText: true,
                     decoration: InputDecoration(
+                      prefixIcon: Icon(
+                        Icons.password,
+                        color: Colors.white,
+                      ),
                       hintText: 'Password', // Hint text
                       hintStyle: TextStyle(color: Colors.white),
+                      suffixIcon: GestureDetector(
+                        onTap: toggleObscureText,
+                        child: Icon(
+                          isObscured ? Icons.visibility : Icons.visibility_off,
+                          // Icon on the right side
+                          color: Colors.white,
+                        ),
+                      ),
                       border: InputBorder.none, // Remove default border
                     ),
                     style: TextStyle(color: Colors.white),

@@ -20,7 +20,7 @@ class _CulturalpgState extends State<Culturalpg> {
             height: 35,
           ),
             Container(
-              padding: EdgeInsets.fromLTRB(31,11,178,7),
+              padding: EdgeInsets.fromLTRB(31,11,0,7),
               width: double.infinity,
               decoration: BoxDecoration (
                 color:  Color(0xff000000),
@@ -154,8 +154,8 @@ class _CulturalpgState extends State<Culturalpg> {
                       ),
                     ),
                     Container(
-                      margin:  EdgeInsets.fromLTRB(94, 0, 95, 18),
-                      width:  double.infinity,
+                      margin:  EdgeInsets.fromLTRB(0, 0, 0, 18),
+                      width:  200,
                       height:  29,
                       decoration:  BoxDecoration (
                         color:  Color(0xffe87603),
@@ -175,22 +175,27 @@ class _CulturalpgState extends State<Culturalpg> {
                         ),
                       ),
                     ),
-                    Container(
-                      margin:  EdgeInsets.fromLTRB(0, 0,170, 30),
-                      child:
-                      Text(
-                        '* Simranpreet Kaur    (4th year)',
-                        style: TextStyle (
-                          fontSize:  13,
-                          fontWeight:  FontWeight.w400,
-                          height:  1.5,
-                          color:Colors.white,
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Container(
+                          margin:  EdgeInsets.fromLTRB(20, 0,0, 30),
+                          child:
+                          Text(
+                            '* Simranpreet Kaur    (4th year)',
+                            style: TextStyle (
+                              fontSize:  13,
+                              fontWeight:  FontWeight.w400,
+                              height:  1.5,
+                              color:Colors.white,
+                            ),
+                          ),
                         ),
-                      ),
+                      ],
                     ),
                     Container(
-                      margin:  EdgeInsets.fromLTRB(94, 0, 95, 18),
-                      width:  double.infinity,
+                      margin:  EdgeInsets.fromLTRB(0, 0, 0, 18),
+                      width:  200,
                       height:  29,
                       decoration:  BoxDecoration (
                         color:  Color(0xffe87603),
@@ -210,22 +215,27 @@ class _CulturalpgState extends State<Culturalpg> {
                         ),
                       ),
                     ),
-                    Container(
-                      margin:  EdgeInsets.fromLTRB(0, 0, 210, 30),
-                      child:
-                      Text(
-                        '* Ananya    (2nd year)',
-                        style: TextStyle (
-                          fontSize:  13,
-                          fontWeight:  FontWeight.w400,
-                          height:  1.5,
-                          color:  Color(0xf2ffffff),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Container(
+                          margin:  EdgeInsets.fromLTRB(20, 0, 0, 30),
+                          child:
+                          Text(
+                            '* Ananya    (2nd year)',
+                            style: TextStyle (
+                              fontSize:  13,
+                              fontWeight:  FontWeight.w400,
+                              height:  1.5,
+                              color:  Color(0xf2ffffff),
+                            ),
+                          ),
                         ),
-                      ),
+                      ],
                     ),
                     Container(
-                      margin:  EdgeInsets.fromLTRB(95, 0, 94, 18),
-                      width:  double.infinity,
+                      margin:  EdgeInsets.fromLTRB(0, 0, 0, 18),
+                      width:  200,
                       height:  29,
                       decoration:  BoxDecoration (
                         color:  Color(0xffe87603),
@@ -243,29 +253,34 @@ class _CulturalpgState extends State<Culturalpg> {
                             ),
                           ),
                     ),
-                    Container(
-                      margin:  EdgeInsets.fromLTRB(0, 0,180,40),
-                      constraints:  BoxConstraints (
-                        maxWidth:  311,
-                      ),
-                      child:
-                            Text(
-                                '* Shilpa    (3rd year)\n'
-                                '* Kamna    (3rd year)\n'
-                                '* Beena Pal    (3rd year)\n'
-                                '* Lakshay    (2nd Year)\n'
-                                '* Yogita    (2nd year)\n'
-                                '* Simran Saka    (2nd Year)\n'
-                                '* Parneet    (2nd year)\n'
-                                '* Harsh    (2nd year)\n'
-                                '* Anshu    (2nd year)',
-                    style: TextStyle(
-                      fontSize:  13,
-                      fontWeight:  FontWeight.w400,
-                      height:  1.5,
-                      color:  Color(0xf2ffffff),
-                    ),
-                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Container(
+                          margin:  EdgeInsets.fromLTRB(20, 0,0,40),
+                          constraints:  BoxConstraints (
+                            maxWidth:  311,
+                          ),
+                          child:
+                                Text(
+                                    '* Shilpa    (3rd year)\n'
+                                    '* Kamna    (3rd year)\n'
+                                    '* Beena Pal    (3rd year)\n'
+                                    '* Lakshay    (2nd Year)\n'
+                                    '* Yogita    (2nd year)\n'
+                                    '* Simran Saka    (2nd Year)\n'
+                                    '* Parneet    (2nd year)\n'
+                                    '* Harsh    (2nd year)\n'
+                                    '* Anshu    (2nd year)',
+                        style: TextStyle(
+                          fontSize:  13,
+                          fontWeight:  FontWeight.w400,
+                          height:  1.5,
+                          color:  Color(0xf2ffffff),
+                        ),
+                        ),
+                        ),
+                      ],
                     ),
                     Container(
                       margin:  EdgeInsets.fromLTRB(16,0, 15,0),

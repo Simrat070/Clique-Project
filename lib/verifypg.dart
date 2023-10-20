@@ -63,26 +63,26 @@ class _VerifyState extends State<Verify> {
                   ),
                 ),
                 Container(
-                    padding: EdgeInsets.fromLTRB(45, 43, 0, 0),
-                    width: double.infinity,
+                    padding: EdgeInsets.fromLTRB(0, 43, 0, 0),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Container(
-                          margin: EdgeInsets.fromLTRB(0, 0, 45, 30),
+                          margin: EdgeInsets.fromLTRB(0, 0, 0, 30),
                           child: Row(
-                            crossAxisAlignment: CrossAxisAlignment.center,
+                            mainAxisAlignment: MainAxisAlignment.center
+                            ,
                             children: [
                               SizedBox(
                                 width: 1,
                               ),
                               Row(
-                                mainAxisAlignment: MainAxisAlignment.center,
+                                mainAxisAlignment: MainAxisAlignment.spaceAround,
                                 children: List.generate(
                                   6, (index) => Row(
                                   children: [
                                     SizedBox(
-                                      width: 15,
+                                      width: 10,
                                         height: 37,
                                     ),
                                     SizedBox(
@@ -119,8 +119,8 @@ class _VerifyState extends State<Verify> {
                           ),
                         ),
                         Container(
-                          margin: EdgeInsets.fromLTRB(25, 0, 70, 20),
-                          width: double.infinity,
+                          margin: EdgeInsets.fromLTRB(0, 0, 0, 20),
+                          width: 300,
                           height: 40,
                           decoration: BoxDecoration(
                             color: Color(0xffe87603),
@@ -135,6 +135,7 @@ class _VerifyState extends State<Verify> {
                           ),
                           child: TextButton(
                             onPressed: () {
+                              Navigator.pushNamed(context, 'login');
                             },
                             child: Center(
                               child: Text(
@@ -150,10 +151,10 @@ class _VerifyState extends State<Verify> {
                           ),
                         ),
                         Container(
-                          margin: EdgeInsets.fromLTRB(26, 0, 72.04, 5),
+                          margin: EdgeInsets.fromLTRB(0, 0,0 , 5),
                           width: double.infinity,
                           child: Row(
-                            crossAxisAlignment: CrossAxisAlignment.center,
+                            mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Container(
                                 margin: EdgeInsets.fromLTRB(0, 0, 2.96, 0),
@@ -180,15 +181,20 @@ class _VerifyState extends State<Verify> {
                             ],
                           ),
                         ),
-                        Container(
-                          margin: EdgeInsets.fromLTRB(40, 0, 0, 0),
-                          width: 326,
-                          height: 362,
-                          child: Image.asset(
-                            "assets/r7.png",
-                            width: 326,
-                            height: 362,
-                          ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.end,
+                          children: [
+                            Container(
+                              margin: EdgeInsets.fromLTRB(0, 0, 0, 0),
+                              width: 326,
+                              height: 362,
+                              child: Image.asset(
+                                "assets/r7.png",
+                                width: 326,
+                                height: 362,
+                              ),
+                            ),
+                          ],
                         ),
                       ],
                     ))

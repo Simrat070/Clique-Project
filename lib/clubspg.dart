@@ -70,25 +70,30 @@ class _ClubpgState extends State<Clubpg> {
                 color:  Color(0xff000000),
               ),
               child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Container(
-                      margin: EdgeInsets.fromLTRB(325,10, 0, 18),
-                      width: 15,
-                      height: 15,
-                      child: GestureDetector(
-                        onTap: (){
-                          Navigator.pushNamed(context, 'homepg');
-                        },
-                        child: Image.asset(
-                          'assets/s1.png',
+                    Row(
+                      mainAxisAlignment : MainAxisAlignment.end,
+                      children: [
+                        Container(
+                          margin: EdgeInsets.fromLTRB(0,10, 10, 18),
                           width: 15,
                           height: 15,
+                          child: GestureDetector(
+                            onTap: (){
+                              Navigator.pushNamed(context, 'homepg');
+                            },
+                            child: Image.asset(
+                              'assets/s1.png',
+                              width: 15,
+                              height: 15,
+                            ),
+                          ),
                         ),
-                      ),
+                      ],
                     ),
                     Container(
-                      margin: EdgeInsets.fromLTRB(0, 0, 300, 6.51),
+                      margin: EdgeInsets.fromLTRB(10, 0, 0, 6.51),
                       child:RichText(
                         text:TextSpan(
                           children: [
@@ -131,8 +136,8 @@ class _ClubpgState extends State<Clubpg> {
                         Navigator.pushNamed(context, 'personalitypg');
                       },
                       child: Container(
-                        margin: EdgeInsets.fromLTRB(24, 0, 117, 15),
-                        padding: EdgeInsets.fromLTRB(26, 5, 30, 5),
+                        margin: EdgeInsets.fromLTRB(10, 0, 10, 15),
+                        padding: EdgeInsets.fromLTRB(30, 5, 30, 5),
                         width: double.infinity,
                         decoration: BoxDecoration(
                           color: Color(0xe5e87603),
@@ -167,8 +172,8 @@ class _ClubpgState extends State<Clubpg> {
                         Navigator.pushNamed(context, 'codingpg');
                       },
                       child: Container(
-                        margin: EdgeInsets.fromLTRB(24, 0, 117, 15),
-                        padding: EdgeInsets.fromLTRB(26, 5, 30, 5),
+                        margin: EdgeInsets.fromLTRB(10, 0, 10, 15),
+                        padding: EdgeInsets.fromLTRB(30, 5, 30, 5),
                         width: double.infinity,
                         decoration: BoxDecoration(
                           //  color: Color(0xe5e87603),
@@ -203,8 +208,8 @@ class _ClubpgState extends State<Clubpg> {
                         Navigator.pushNamed(context, 'culturalpg');
                       },
                       child: Container(
-                        margin: EdgeInsets.fromLTRB(24, 0, 117, 15),
-                        padding: EdgeInsets.fromLTRB(26, 5, 30, 5),
+                        margin: EdgeInsets.fromLTRB(10, 0, 10, 15),
+                        padding: EdgeInsets.fromLTRB(30, 5, 30, 5),
                         width: double.infinity,
                         decoration: BoxDecoration(
                           //color: Color(0xe5e87603),
@@ -241,8 +246,8 @@ class _ClubpgState extends State<Clubpg> {
                         Navigator.pushNamed(context, 'sportspg');
                       },
                       child: Container(
-                        margin: EdgeInsets.fromLTRB(24, 0, 117, 15),
-                        padding: EdgeInsets.fromLTRB(26, 5, 30, 5),
+                        margin: EdgeInsets.fromLTRB(10, 0, 10, 15),
+                        padding: EdgeInsets.fromLTRB(30, 5, 30, 5),
                         width: double.infinity,
                         decoration: BoxDecoration(
                           // color: Color(0xe5e87603),
@@ -277,8 +282,8 @@ class _ClubpgState extends State<Clubpg> {
                         Navigator.pushNamed(context, 'editorialpg');
                       },
                       child: Container(
-                        margin: EdgeInsets.fromLTRB(24, 0, 117, 15),
-                        padding: EdgeInsets.fromLTRB(26, 5, 30, 5),
+                        margin: EdgeInsets.fromLTRB(10, 0, 10, 15),
+                        padding: EdgeInsets.fromLTRB(30, 5, 30, 5),
                         width: double.infinity,
                         decoration: BoxDecoration(
                           // color: Color(0xe5e87603),
@@ -313,8 +318,8 @@ class _ClubpgState extends State<Clubpg> {
                         Navigator.pushNamed(context, 'prpg');
                       },
                       child: Container(
-                        margin: EdgeInsets.fromLTRB(24, 0, 117, 15),
-                        padding: EdgeInsets.fromLTRB(26, 5, 30, 5),
+                        margin: EdgeInsets.fromLTRB(10, 0, 10, 15),
+                        padding: EdgeInsets.fromLTRB(30, 5, 30, 5),
                         width: double.infinity,
                         decoration: BoxDecoration(
                           //color: Color(0xe5e87603),
@@ -349,8 +354,8 @@ class _ClubpgState extends State<Clubpg> {
                         Navigator.pushNamed(context, 'epg');
                       },
                       child: Container(
-                        margin: EdgeInsets.fromLTRB(24, 0, 117, 15),
-                        padding: EdgeInsets.fromLTRB(26, 5, 30, 5),
+                        margin: EdgeInsets.fromLTRB(10, 0, 10, 15),
+                        padding: EdgeInsets.fromLTRB(30, 5, 30, 5),
                         width: double.infinity,
                         decoration: BoxDecoration(
                           //color: Color(0xe5e87603),
@@ -385,8 +390,8 @@ class _ClubpgState extends State<Clubpg> {
                         Navigator.pushNamed(context, 'pasteventpg');
                       },
                       child: Container(
-                        margin: EdgeInsets.fromLTRB(24, 0, 117, 15),
-                        padding: EdgeInsets.fromLTRB(26, 5, 30, 5),
+                        margin: EdgeInsets.fromLTRB(10, 0, 10, 15),
+                        padding: EdgeInsets.fromLTRB(30, 5, 30, 5),
                         width: double.infinity,
                         decoration: BoxDecoration(
                           // color: Color(0xe5e87603),
@@ -417,50 +422,14 @@ class _ClubpgState extends State<Clubpg> {
                         ),
                       ),
                     ),
-                    GestureDetector(
-                      onTap: (){
-                        Navigator.pushNamed(context, 'feedbackpg');
-                      },
-                      child: Container(
-                        margin: EdgeInsets.fromLTRB(24, 0, 117, 15),
-                        padding: EdgeInsets.fromLTRB(26, 5, 30, 5),
-                        width: double.infinity,
-                        decoration: BoxDecoration(
-                          // color: Color(0xe5e87603),
-                          borderRadius:  BorderRadius.circular(10),
-                        ),
-                        child: Row(
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          children: [
-                            Container(
-                              margin: EdgeInsets.fromLTRB(0, 0.79, 12, 0),
-                              width: 21,
-                              height: 16.79,
-                              child: Image.asset(
-                                'assets/f1.png',
-                                width: 21,
-                                height: 16.79,
-                              ),
-                            ),
-                            Text('Feedback',style: TextStyle(
-                              fontSize: 16,
-                              letterSpacing: 1,
-                              fontWeight: FontWeight.w400,
-                              height: 1.5,
-                              color: Color(0xffffffff),
-                            ),),
-                          ],
-                        ),
-                      ),
-                    ),
 
                     GestureDetector(
                       onTap: (){
                         Navigator.pushNamed(context, 'contactpg');
                       },
                       child: Container(
-                        margin: EdgeInsets.fromLTRB(24, 0, 117, 15),
-                        padding: EdgeInsets.fromLTRB(26, 5, 30, 5),
+                        margin: EdgeInsets.fromLTRB(10, 0, 10, 15),
+                        padding: EdgeInsets.fromLTRB(30, 5, 30, 5),
                         width: double.infinity,
                         decoration: BoxDecoration(
                           // color: Color(0xe5e87603),
@@ -494,30 +463,35 @@ class _ClubpgState extends State<Clubpg> {
                     SizedBox(
                       height: 20,
                     ),
-                    Container(
-                      //login box
-                      margin: EdgeInsets.fromLTRB(70, 0, 70, 9),
-                      width: 120,
-                      height: 40,
-                      decoration: BoxDecoration(
-                        color: Color.fromRGBO(46, 46, 46, 1),
-                        borderRadius: BorderRadius.circular(30),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Container(
+                          //login box
+                          margin: EdgeInsets.fromLTRB(0, 0, 0, 9),
+                          width: 120,
+                          height: 40,
+                          decoration: BoxDecoration(
+                            color: Color.fromRGBO(46, 46, 46, 1),
+                            borderRadius: BorderRadius.circular(30),
 
-                      ),
-                      child: TextButton(
-                        onPressed: (){
-                          Navigator.pushNamed(context, 'homepg');
-                        },
-                          child: Text(
-                            'Logout',
-                            style: TextStyle(
-                              fontSize: 14,
-                              fontWeight: FontWeight.w700,
-                              height: 1.5,
-                              color: Color(0xffd16a03),
-                            ),
                           ),
-                      ),
+                          child: TextButton(
+                            onPressed: (){
+                              Navigator.pushNamed(context, 'firstscreen');
+                            },
+                              child: Text(
+                                'Logout',
+                                style: TextStyle(
+                                  fontSize: 14,
+                                  fontWeight: FontWeight.w700,
+                                  height: 1.5,
+                                  color: Color(0xffd16a03),
+                                ),
+                              ),
+                          ),
+                        ),
+                      ],
                     ),
                   ]
               ),

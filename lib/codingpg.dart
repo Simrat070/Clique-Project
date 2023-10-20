@@ -20,7 +20,7 @@ class _CodingpgState extends State<Codingpg> {
               height: 35,
             ),
             Container(
-              padding: EdgeInsets.fromLTRB(31,11,178,7),
+              padding: EdgeInsets.fromLTRB(31,11,0,7),
               width: double.infinity,
               decoration: BoxDecoration (
                 color:  Color(0xff000000),
@@ -153,8 +153,8 @@ class _CodingpgState extends State<Codingpg> {
                     ),
                   ),
                   Container(
-                    margin:  EdgeInsets.fromLTRB(94, 0, 95, 18),
-                    width:  double.infinity,
+                    margin:  EdgeInsets.fromLTRB(0, 0, 0, 18),
+                    width:  200,
                     height:  29,
                     decoration:  BoxDecoration (
                       color:  Color(0xffe87603),
@@ -174,22 +174,27 @@ class _CodingpgState extends State<Codingpg> {
                       ),
                     ),
                   ),
-                  Container(
-                    margin:  EdgeInsets.fromLTRB(0, 0,190, 30),
-                    child:
-                    Text(
-                      '* Harsehraab    (4th year)',
-                      style: TextStyle (
-                        fontSize:  13,
-                        fontWeight:  FontWeight.w400,
-                        height:  1.5,
-                        color:Colors.white,
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Container(
+                        margin:  EdgeInsets.fromLTRB(20, 0,0, 30),
+                        child:
+                        Text(
+                          '* Harsehraab    (4th year)',
+                          style: TextStyle (
+                            fontSize:  13,
+                            fontWeight:  FontWeight.w400,
+                            height:  1.5,
+                            color:Colors.white,
+                          ),
+                        ),
                       ),
-                    ),
+                    ],
                   ),
                   Container(
-                    margin:  EdgeInsets.fromLTRB(94, 0, 95, 18),
-                    width:  double.infinity,
+                    margin:  EdgeInsets.fromLTRB(0, 0, 0, 18),
+                    width:  200,
                     height:  29,
                     decoration:  BoxDecoration (
                       color:  Color(0xffe87603),
@@ -209,22 +214,27 @@ class _CodingpgState extends State<Codingpg> {
                       ),
                     ),
                   ),
-                  Container(
-                    margin:  EdgeInsets.fromLTRB(0, 0, 175, 30),
-                    child:
-                    Text(
-                      '* Aditya Sharma    (3rd year)',
-                      style: TextStyle (
-                        fontSize:  13,
-                        fontWeight:  FontWeight.w400,
-                        height:  1.5,
-                        color:  Color(0xf2ffffff),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Container(
+                        margin:  EdgeInsets.fromLTRB(20, 0, 0, 30),
+                        child:
+                        Text(
+                          '* Aditya Sharma    (3rd year)',
+                          style: TextStyle (
+                            fontSize:  13,
+                            fontWeight:  FontWeight.w400,
+                            height:  1.5,
+                            color:  Color(0xf2ffffff),
+                          ),
+                        ),
                       ),
-                    ),
+                    ],
                   ),
                   Container(
-                    margin:  EdgeInsets.fromLTRB(95, 0, 94, 18),
-                    width:  double.infinity,
+                    margin:  EdgeInsets.fromLTRB(0, 0, 0, 18),
+                    width:  200,
                     height:  29,
                     decoration:  BoxDecoration (
                       color:  Color(0xffe87603),
@@ -242,28 +252,33 @@ class _CodingpgState extends State<Codingpg> {
                       ),
                     ),
                   ),
-                  Container(
-                    margin:  EdgeInsets.fromLTRB(0, 0,180,30),
-                    constraints:  BoxConstraints (
-                      maxWidth:  311,
-                    ),
-                    child:
-                    Text(
-                      '* Prashant    (3rd year)\n'
-                          '* Mani Tyagi   (3rd year)\n'
-                          '* Gurjot Singh    (3rd year)\n'
-                          '* Shreya    (2nd Year)\n'
-                          '* Uday Dogra    (2nd year)\n'
-                          '* Balprateek    (2nd Year)\n'
-                          '* Ishan    (2nd year)\n'
-                          '* Jatin    (2nd year)\n',
-                      style: TextStyle(
-                        fontSize:  13,
-                        fontWeight:  FontWeight.w400,
-                        height:  1.5,
-                        color:  Color(0xf2ffffff),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.start,
+                    children: [
+                      Container(
+                        margin:  EdgeInsets.fromLTRB(20, 0,0,30),
+                        constraints:  BoxConstraints (
+                          maxWidth:  311,
+                        ),
+                        child:
+                        Text(
+                          '* Prashant    (3rd year)\n'
+                              '* Mani Tyagi   (3rd year)\n'
+                              '* Gurjot Singh    (3rd year)\n'
+                              '* Shreya    (2nd Year)\n'
+                              '* Uday Dogra    (2nd year)\n'
+                              '* Balprateek    (2nd Year)\n'
+                              '* Ishan    (2nd year)\n'
+                              '* Jatin    (2nd year)\n',
+                          style: TextStyle(
+                            fontSize:  13,
+                            fontWeight:  FontWeight.w400,
+                            height:  1.5,
+                            color:  Color(0xf2ffffff),
+                          ),
+                        ),
                       ),
-                    ),
+                    ],
                   ),
                   Container(
                     margin:  EdgeInsets.fromLTRB(16,0, 15,0),

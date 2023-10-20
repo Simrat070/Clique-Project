@@ -66,7 +66,7 @@ class _HomepgState extends State<Homepg> {
                   height: 35,
                 ),
                 Container(
-                  margin: EdgeInsets.fromLTRB(0, 0, 1, 15),
+                  margin: EdgeInsets.fromLTRB(0, 0, 0, 15),
                   width: 30,
                   height: 35,
                   child: Image.asset('assets/cliquelogo.png',
@@ -128,10 +128,9 @@ class _HomepgState extends State<Homepg> {
                               ),
 
                               Container(
-                                margin: EdgeInsets.fromLTRB(120,10,0 , 0),
+                                margin: EdgeInsets.fromLTRB(110,10,0 , 0),
                                 width: double.infinity,
                                 child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.end,
                                   children: [
                                     Container(
                                       width: double.infinity,
@@ -244,7 +243,6 @@ class _HomepgState extends State<Homepg> {
                         crossAxisAlignment:  CrossAxisAlignment.center,
                         children:  [
                           Container(
-                            // autogroupnc7suER (3dyAiMTwCTZ4FybPSanc7s)
                             margin:  EdgeInsets.fromLTRB(0, 0, 10, 0),
                             padding:  EdgeInsets.fromLTRB(0, 9, 0, 24),
                             width:  170,
@@ -257,7 +255,6 @@ class _HomepgState extends State<Homepg> {
                                 crossAxisAlignment:  CrossAxisAlignment.start,
                                 children:  [
                             Container(
-                            // autogrouptg7jyEH (3dyAvgSjCNc655Vg57Tg7j)
                             margin:  EdgeInsets.fromLTRB(8, 0, 17, 13),
                             width:  double.infinity,
                             height:  31,
@@ -266,8 +263,7 @@ class _HomepgState extends State<Homepg> {
                                 crossAxisAlignment:  CrossAxisAlignment.start,
                                 children:  [
                               Container(
-                              // ellipse37VTX (19:332)
-                              margin:  EdgeInsets.fromLTRB(0, 5, 10, 0),
+                                margin:  EdgeInsets.fromLTRB(0, 5, 10, 0),
                               width:  8,
                               height:  8,
                               decoration:  BoxDecoration (
@@ -276,14 +272,12 @@ class _HomepgState extends State<Homepg> {
                               ),
                             ),
                             Container(
-                              // autogroupeoy3zfB (3dyB2m6vusWvPDVzTqEoy3)
                               width:  117,
                               height:  double.infinity,
                               child:
                               Stack(
                                 children:  [
                                 Positioned(
-                                // diwalicelebrationk8Z (19:333)
                                 left:  0,
                                 top:  0,
                                 child:
@@ -337,7 +331,6 @@ class _HomepgState extends State<Homepg> {
                             ),
                             ),
                                   Container(
-                                    // autogroupopazJpH (3dyBQAevqodMsKSLifoPAZ)
                                     margin:  EdgeInsets.fromLTRB(0, 0, 47, 6),
                                     padding:  EdgeInsets.fromLTRB(26, 2, 27, 2),
                                     width:  double.infinity,
@@ -353,7 +346,6 @@ class _HomepgState extends State<Homepg> {
                                       crossAxisAlignment:  CrossAxisAlignment.center,
                                       children:  [
                                         Container(
-                                          // vectornDf (19:337)
                                           margin:  EdgeInsets.fromLTRB(0, 0, 4, 0),
                                           width:  8,
                                           height:  8,
@@ -363,10 +355,8 @@ class _HomepgState extends State<Homepg> {
                                           ),
                                         ),
                                         Text(
-                                          // pmto5pmJSu (19:338)
                                           '2PM to 5PM',
                                           style:  TextStyle (
-
                                             fontSize:  8,
                                             fontWeight:  FontWeight.w400,
                                             height:  1.5,
@@ -378,7 +368,6 @@ class _HomepgState extends State<Homepg> {
                                     ),
                                   ),
                                   Container(
-                                    // autogroupyvjpS3K (3dyBYL5zemvG1n5KBzYVjP)
                                     margin:  EdgeInsets.fromLTRB(0, 0, 27, 0),
                                     padding:  EdgeInsets.fromLTRB(26, 2, 47, 2),
                                     width:  double.infinity,
@@ -394,7 +383,6 @@ class _HomepgState extends State<Homepg> {
                                       crossAxisAlignment:  CrossAxisAlignment.center,
                                       children:  [
                                         Container(
-                                          // vectorWJ5 (19:340)
                                           margin:  EdgeInsets.fromLTRB(0, 0, 4, 0),
                                           width:  8,
                                           height:  8,
@@ -404,7 +392,6 @@ class _HomepgState extends State<Homepg> {
                                           ),
                                         ),
                                         Text(
-                                          // 1kd (19:339)
                                           '01-09-2023',
                                           style: TextStyle (
                                             fontSize:  8,
@@ -421,7 +408,6 @@ class _HomepgState extends State<Homepg> {
                             ),
                           ),
                           Container(
-                            // autogroupnc7suER (3dyAiMTwCTZ4FybPSanc7s
                             padding:  EdgeInsets.fromLTRB(0, 9, 0, 24),
                             width:  170,
                             height:  double.infinity,
@@ -433,7 +419,6 @@ class _HomepgState extends State<Homepg> {
                               crossAxisAlignment:  CrossAxisAlignment.start,
                               children:  [
                                 Container(
-                                  // autogrouptg7jyEH (3dyAvgSjCNc655Vg57Tg7j)
                                   margin:  EdgeInsets.fromLTRB(8, 0, 17, 13),
                                   width:  double.infinity,
                                   height:  31,
@@ -442,7 +427,6 @@ class _HomepgState extends State<Homepg> {
                                     crossAxisAlignment:  CrossAxisAlignment.start,
                                     children:  [
                                       Container(
-                                        // ellipse37VTX (19:332)
                                         margin:  EdgeInsets.fromLTRB(0, 5, 10, 0),
                                         width:  8,
                                         height:  8,
@@ -452,14 +436,12 @@ class _HomepgState extends State<Homepg> {
                                         ),
                                       ),
                                       Container(
-                                        // autogroupeoy3zfB (3dyB2m6vusWvPDVzTqEoy3)
                                         width:  117,
                                         height:  double.infinity,
                                         child:
                                         Stack(
                                           children:  [
                                             Positioned(
-                                              // diwalicelebrationk8Z (19:333)
                                               left:  0,
                                               top:  0,
                                               child:
@@ -483,7 +465,6 @@ class _HomepgState extends State<Homepg> {
                                               ),
                                             ),
                                             Positioned(
-                                              // afestivaloflightsRkV (19:334)
                                               left:  0,
                                               top:  16,
                                               child:
@@ -513,7 +494,6 @@ class _HomepgState extends State<Homepg> {
                                   ),
                                 ),
                                 Container(
-                                  // autogroupopazJpH (3dyBQAevqodMsKSLifoPAZ)
                                   margin:  EdgeInsets.fromLTRB(0, 0, 47, 6),
                                   padding:  EdgeInsets.fromLTRB(26, 2, 27, 2),
                                   width:  double.infinity,
@@ -529,7 +509,6 @@ class _HomepgState extends State<Homepg> {
                                     crossAxisAlignment:  CrossAxisAlignment.center,
                                     children:  [
                                       Container(
-                                        // vectornDf (19:337)
                                         margin:  EdgeInsets.fromLTRB(0, 0, 4, 0),
                                         width:  8,
                                         height:  8,
@@ -539,10 +518,8 @@ class _HomepgState extends State<Homepg> {
                                         ),
                                       ),
                                       Text(
-                                        // pmto5pmJSu (19:338)
                                         '2PM to 5PM',
                                         style:  TextStyle (
-
                                           fontSize:  8,
                                           fontWeight:  FontWeight.w400,
                                           height:  1.5,
@@ -554,7 +531,6 @@ class _HomepgState extends State<Homepg> {
                                   ),
                                 ),
                                 Container(
-                                  // autogroupyvjpS3K (3dyBYL5zemvG1n5KBzYVjP)
                                   margin:  EdgeInsets.fromLTRB(0, 0, 27, 0),
                                   padding:  EdgeInsets.fromLTRB(26, 2, 47, 2),
                                   width:  double.infinity,
@@ -570,7 +546,6 @@ class _HomepgState extends State<Homepg> {
                                     crossAxisAlignment:  CrossAxisAlignment.center,
                                     children:  [
                                       Container(
-                                        // vectorWJ5 (19:340)
                                         margin:  EdgeInsets.fromLTRB(0, 0, 4, 0),
                                         width:  8,
                                         height:  8,
@@ -580,7 +555,6 @@ class _HomepgState extends State<Homepg> {
                                         ),
                                       ),
                                       Text(
-                                        // 1kd (19:339)
                                         '01-09-2023',
                                         style: TextStyle (
                                           fontSize:  8,
@@ -618,7 +592,6 @@ class _HomepgState extends State<Homepg> {
                       crossAxisAlignment:  CrossAxisAlignment.center,
                       children:  [
                         Container(
-                          // autogroupnc7suER (3dyAiMTwCTZ4FybPSanc7s)
                           margin:  EdgeInsets.fromLTRB(0, 0, 10, 0),
                           padding:  EdgeInsets.fromLTRB(0, 9, 0, 24),
                           width:  170,
@@ -631,7 +604,7 @@ class _HomepgState extends State<Homepg> {
                             crossAxisAlignment:  CrossAxisAlignment.start,
                             children:  [
                               Container(
-                                // autogrouptg7jyEH (3dyAvgSjCNc655Vg57Tg7j)
+
                                 margin:  EdgeInsets.fromLTRB(8, 0, 17, 13),
                                 width:  double.infinity,
                                 height:  31,
@@ -640,7 +613,7 @@ class _HomepgState extends State<Homepg> {
                                   crossAxisAlignment:  CrossAxisAlignment.start,
                                   children:  [
                                     Container(
-                                      // ellipse37VTX (19:332)
+
                                       margin:  EdgeInsets.fromLTRB(0, 5, 10, 0),
                                       width:  8,
                                       height:  8,
@@ -650,14 +623,14 @@ class _HomepgState extends State<Homepg> {
                                       ),
                                     ),
                                     Container(
-                                      // autogroupeoy3zfB (3dyB2m6vusWvPDVzTqEoy3)
+
                                       width:  117,
                                       height:  double.infinity,
                                       child:
                                       Stack(
                                         children:  [
                                           Positioned(
-                                            // diwalicelebrationk8Z (19:333)
+
                                             left:  0,
                                             top:  0,
                                             child:
@@ -681,7 +654,7 @@ class _HomepgState extends State<Homepg> {
                                             ),
                                           ),
                                           Positioned(
-                                            // afestivaloflightsRkV (19:334)
+
                                             left:  0,
                                             top:  16,
                                             child:
@@ -711,7 +684,7 @@ class _HomepgState extends State<Homepg> {
                                 ),
                               ),
                               Container(
-                                // autogroupopazJpH (3dyBQAevqodMsKSLifoPAZ)
+
                                 margin:  EdgeInsets.fromLTRB(0, 0, 47, 6),
                                 padding:  EdgeInsets.fromLTRB(26, 2, 27, 2),
                                 width:  double.infinity,
@@ -727,7 +700,7 @@ class _HomepgState extends State<Homepg> {
                                   crossAxisAlignment:  CrossAxisAlignment.center,
                                   children:  [
                                     Container(
-                                      // vectornDf (19:337)
+
                                       margin:  EdgeInsets.fromLTRB(0, 0, 4, 0),
                                       width:  8,
                                       height:  8,
@@ -737,7 +710,7 @@ class _HomepgState extends State<Homepg> {
                                       ),
                                     ),
                                     Text(
-                                      // pmto5pmJSu (19:338)
+
                                       '2PM to 5PM',
                                       style:  TextStyle (
 
@@ -752,7 +725,7 @@ class _HomepgState extends State<Homepg> {
                                 ),
                               ),
                               Container(
-                                // autogroupyvjpS3K (3dyBYL5zemvG1n5KBzYVjP)
+
                                 margin:  EdgeInsets.fromLTRB(0, 0, 27, 0),
                                 padding:  EdgeInsets.fromLTRB(26, 2, 47, 2),
                                 width:  double.infinity,
@@ -768,7 +741,7 @@ class _HomepgState extends State<Homepg> {
                                   crossAxisAlignment:  CrossAxisAlignment.center,
                                   children:  [
                                     Container(
-                                      // vectorWJ5 (19:340)
+
                                       margin:  EdgeInsets.fromLTRB(0, 0, 4, 0),
                                       width:  8,
                                       height:  8,
@@ -778,7 +751,7 @@ class _HomepgState extends State<Homepg> {
                                       ),
                                     ),
                                     Text(
-                                      // 1kd (19:339)
+
                                       '01-09-2023',
                                       style: TextStyle (
                                         fontSize:  8,
@@ -795,7 +768,7 @@ class _HomepgState extends State<Homepg> {
                           ),
                         ),
                         Container(
-                          // autogroupnc7suER (3dyAiMTwCTZ4FybPSanc7s
+
                           padding:  EdgeInsets.fromLTRB(0, 9, 0, 24),
                           width:  170,
                           height:  double.infinity,
@@ -807,7 +780,7 @@ class _HomepgState extends State<Homepg> {
                             crossAxisAlignment:  CrossAxisAlignment.start,
                             children:  [
                               Container(
-                                // autogrouptg7jyEH (3dyAvgSjCNc655Vg57Tg7j)
+
                                 margin:  EdgeInsets.fromLTRB(8, 0, 17, 13),
                                 width:  double.infinity,
                                 height:  31,
@@ -816,7 +789,7 @@ class _HomepgState extends State<Homepg> {
                                   crossAxisAlignment:  CrossAxisAlignment.start,
                                   children:  [
                                     Container(
-                                      // ellipse37VTX (19:332)
+
                                       margin:  EdgeInsets.fromLTRB(0, 5, 10, 0),
                                       width:  8,
                                       height:  8,
@@ -826,14 +799,14 @@ class _HomepgState extends State<Homepg> {
                                       ),
                                     ),
                                     Container(
-                                      // autogroupeoy3zfB (3dyB2m6vusWvPDVzTqEoy3)
+
                                       width:  117,
                                       height:  double.infinity,
                                       child:
                                       Stack(
                                         children:  [
                                           Positioned(
-                                            // diwalicelebrationk8Z (19:333)
+
                                             left:  0,
                                             top:  0,
                                             child:
@@ -857,7 +830,7 @@ class _HomepgState extends State<Homepg> {
                                             ),
                                           ),
                                           Positioned(
-                                            // afestivaloflightsRkV (19:334)
+
                                             left:  0,
                                             top:  16,
                                             child:
@@ -887,7 +860,7 @@ class _HomepgState extends State<Homepg> {
                                 ),
                               ),
                               Container(
-                                // autogroupopazJpH (3dyBQAevqodMsKSLifoPAZ)
+
                                 margin:  EdgeInsets.fromLTRB(0, 0, 47, 6),
                                 padding:  EdgeInsets.fromLTRB(26, 2, 27, 2),
                                 width:  double.infinity,
@@ -903,7 +876,7 @@ class _HomepgState extends State<Homepg> {
                                   crossAxisAlignment:  CrossAxisAlignment.center,
                                   children:  [
                                     Container(
-                                      // vectornDf (19:337)
+
                                       margin:  EdgeInsets.fromLTRB(0, 0, 4, 0),
                                       width:  8,
                                       height:  8,
@@ -913,7 +886,7 @@ class _HomepgState extends State<Homepg> {
                                       ),
                                     ),
                                     Text(
-                                      // pmto5pmJSu (19:338)
+
                                       '2PM to 5PM',
                                       style:  TextStyle (
 
@@ -928,7 +901,7 @@ class _HomepgState extends State<Homepg> {
                                 ),
                               ),
                               Container(
-                                // autogroupyvjpS3K (3dyBYL5zemvG1n5KBzYVjP)
+
                                 margin:  EdgeInsets.fromLTRB(0, 0, 27, 0),
                                 padding:  EdgeInsets.fromLTRB(26, 2, 47, 2),
                                 width:  double.infinity,
@@ -944,7 +917,7 @@ class _HomepgState extends State<Homepg> {
                                   crossAxisAlignment:  CrossAxisAlignment.center,
                                   children:  [
                                     Container(
-                                      // vectorWJ5 (19:340)
+
                                       margin:  EdgeInsets.fromLTRB(0, 0, 4, 0),
                                       width:  8,
                                       height:  8,
@@ -954,7 +927,7 @@ class _HomepgState extends State<Homepg> {
                                       ),
                                     ),
                                     Text(
-                                      // 1kd (19:339)
+
                                       '01-09-2023',
                                       style: TextStyle (
                                         fontSize:  8,
@@ -992,7 +965,7 @@ class _HomepgState extends State<Homepg> {
                       crossAxisAlignment:  CrossAxisAlignment.center,
                       children:  [
                         Container(
-                          // autogroupnc7suER (3dyAiMTwCTZ4FybPSanc7s)
+
                           margin:  EdgeInsets.fromLTRB(0, 0, 10, 0),
                           padding:  EdgeInsets.fromLTRB(0, 9, 0, 24),
                           width:  170,
@@ -1005,7 +978,7 @@ class _HomepgState extends State<Homepg> {
                             crossAxisAlignment:  CrossAxisAlignment.start,
                             children:  [
                               Container(
-                                // autogrouptg7jyEH (3dyAvgSjCNc655Vg57Tg7j)
+
                                 margin:  EdgeInsets.fromLTRB(8, 0, 17, 13),
                                 width:  double.infinity,
                                 height:  31,
@@ -1014,7 +987,7 @@ class _HomepgState extends State<Homepg> {
                                   crossAxisAlignment:  CrossAxisAlignment.start,
                                   children:  [
                                     Container(
-                                      // ellipse37VTX (19:332)
+
                                       margin:  EdgeInsets.fromLTRB(0, 5, 10, 0),
                                       width:  8,
                                       height:  8,
@@ -1024,14 +997,14 @@ class _HomepgState extends State<Homepg> {
                                       ),
                                     ),
                                     Container(
-                                      // autogroupeoy3zfB (3dyB2m6vusWvPDVzTqEoy3)
+
                                       width:  117,
                                       height:  double.infinity,
                                       child:
                                       Stack(
                                         children:  [
                                           Positioned(
-                                            // diwalicelebrationk8Z (19:333)
+
                                             left:  0,
                                             top:  0,
                                             child:
@@ -1055,7 +1028,7 @@ class _HomepgState extends State<Homepg> {
                                             ),
                                           ),
                                           Positioned(
-                                            // afestivaloflightsRkV (19:334)
+
                                             left:  0,
                                             top:  16,
                                             child:
@@ -1085,7 +1058,7 @@ class _HomepgState extends State<Homepg> {
                                 ),
                               ),
                               Container(
-                                // autogroupopazJpH (3dyBQAevqodMsKSLifoPAZ)
+
                                 margin:  EdgeInsets.fromLTRB(0, 0, 47, 6),
                                 padding:  EdgeInsets.fromLTRB(26, 2, 27, 2),
                                 width:  double.infinity,
@@ -1101,7 +1074,7 @@ class _HomepgState extends State<Homepg> {
                                   crossAxisAlignment:  CrossAxisAlignment.center,
                                   children:  [
                                     Container(
-                                      // vectornDf (19:337)
+
                                       margin:  EdgeInsets.fromLTRB(0, 0, 4, 0),
                                       width:  8,
                                       height:  8,
@@ -1111,7 +1084,7 @@ class _HomepgState extends State<Homepg> {
                                       ),
                                     ),
                                     Text(
-                                      // pmto5pmJSu (19:338)
+
                                       '2PM to 5PM',
                                       style:  TextStyle (
 
@@ -1126,7 +1099,7 @@ class _HomepgState extends State<Homepg> {
                                 ),
                               ),
                               Container(
-                                // autogroupyvjpS3K (3dyBYL5zemvG1n5KBzYVjP)
+
                                 margin:  EdgeInsets.fromLTRB(0, 0, 27, 0),
                                 padding:  EdgeInsets.fromLTRB(26, 2, 47, 2),
                                 width:  double.infinity,
@@ -1142,7 +1115,7 @@ class _HomepgState extends State<Homepg> {
                                   crossAxisAlignment:  CrossAxisAlignment.center,
                                   children:  [
                                     Container(
-                                      // vectorWJ5 (19:340)
+
                                       margin:  EdgeInsets.fromLTRB(0, 0, 4, 0),
                                       width:  8,
                                       height:  8,
@@ -1152,7 +1125,7 @@ class _HomepgState extends State<Homepg> {
                                       ),
                                     ),
                                     Text(
-                                      // 1kd (19:339)
+
                                       '01-09-2023',
                                       style: TextStyle (
                                         fontSize:  8,
@@ -1169,7 +1142,7 @@ class _HomepgState extends State<Homepg> {
                           ),
                         ),
                         Container(
-                          // autogroupnc7suER (3dyAiMTwCTZ4FybPSanc7s
+
                           padding:  EdgeInsets.fromLTRB(0, 9, 0, 24),
                           width:  170,
                           height:  double.infinity,
@@ -1181,7 +1154,7 @@ class _HomepgState extends State<Homepg> {
                             crossAxisAlignment:  CrossAxisAlignment.start,
                             children:  [
                               Container(
-                                // autogrouptg7jyEH (3dyAvgSjCNc655Vg57Tg7j)
+
                                 margin:  EdgeInsets.fromLTRB(8, 0, 17, 13),
                                 width:  double.infinity,
                                 height:  31,
@@ -1190,7 +1163,7 @@ class _HomepgState extends State<Homepg> {
                                   crossAxisAlignment:  CrossAxisAlignment.start,
                                   children:  [
                                     Container(
-                                      // ellipse37VTX (19:332)
+
                                       margin:  EdgeInsets.fromLTRB(0, 5, 10, 0),
                                       width:  8,
                                       height:  8,
@@ -1200,14 +1173,14 @@ class _HomepgState extends State<Homepg> {
                                       ),
                                     ),
                                     Container(
-                                      // autogroupeoy3zfB (3dyB2m6vusWvPDVzTqEoy3)
+
                                       width:  117,
                                       height:  double.infinity,
                                       child:
                                       Stack(
                                         children:  [
                                           Positioned(
-                                            // diwalicelebrationk8Z (19:333)
+
                                             left:  0,
                                             top:  0,
                                             child:
@@ -1231,7 +1204,7 @@ class _HomepgState extends State<Homepg> {
                                             ),
                                           ),
                                           Positioned(
-                                            // afestivaloflightsRkV (19:334)
+
                                             left:  0,
                                             top:  16,
                                             child:
@@ -1261,7 +1234,7 @@ class _HomepgState extends State<Homepg> {
                                 ),
                               ),
                               Container(
-                                // autogroupopazJpH (3dyBQAevqodMsKSLifoPAZ)
+
                                 margin:  EdgeInsets.fromLTRB(0, 0, 47, 6),
                                 padding:  EdgeInsets.fromLTRB(26, 2, 27, 2),
                                 width:  double.infinity,
@@ -1277,7 +1250,7 @@ class _HomepgState extends State<Homepg> {
                                   crossAxisAlignment:  CrossAxisAlignment.center,
                                   children:  [
                                     Container(
-                                      // vectornDf (19:337)
+
                                       margin:  EdgeInsets.fromLTRB(0, 0, 4, 0),
                                       width:  8,
                                       height:  8,
@@ -1287,7 +1260,7 @@ class _HomepgState extends State<Homepg> {
                                       ),
                                     ),
                                     Text(
-                                      // pmto5pmJSu (19:338)
+
                                       '2PM to 5PM',
                                       style:  TextStyle (
 
@@ -1302,7 +1275,7 @@ class _HomepgState extends State<Homepg> {
                                 ),
                               ),
                               Container(
-                                // autogroupyvjpS3K (3dyBYL5zemvG1n5KBzYVjP)
+
                                 margin:  EdgeInsets.fromLTRB(0, 0, 27, 0),
                                 padding:  EdgeInsets.fromLTRB(26, 2, 47, 2),
                                 width:  double.infinity,
@@ -1318,7 +1291,7 @@ class _HomepgState extends State<Homepg> {
                                   crossAxisAlignment:  CrossAxisAlignment.center,
                                   children:  [
                                     Container(
-                                      // vectorWJ5 (19:340)
+
                                       margin:  EdgeInsets.fromLTRB(0, 0, 4, 0),
                                       width:  8,
                                       height:  8,
@@ -1328,7 +1301,7 @@ class _HomepgState extends State<Homepg> {
                                       ),
                                     ),
                                     Text(
-                                      // 1kd (19:339)
+
                                       '01-09-2023',
                                       style: TextStyle (
                                         fontSize:  8,

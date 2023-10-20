@@ -1,3 +1,4 @@
+import 'package:cliquee/feedconfirm.dart';
 import 'package:flutter/material.dart';
 
 class Contactpg extends StatefulWidget {
@@ -22,20 +23,19 @@ class _ContactpgState extends State<Contactpg> {
                     ),
                     Container(
                       margin:  EdgeInsets.fromLTRB(0, 0, 0, 15),
-                      padding:  EdgeInsets.fromLTRB(25, 9, 140, 12),
+                      padding:  EdgeInsets.fromLTRB(10, 9, 0, 12),
                       width:  double.infinity,
 
                       child:
                       Row(
-                        crossAxisAlignment:  CrossAxisAlignment.center,
+                       mainAxisAlignment: MainAxisAlignment.start,
                         children:  [
                           GestureDetector(
                             onTap: (){
                               Navigator.pushNamed(context, 'clubpg');
                             },
                             child: Container(
-                              // vectorr7j (1:5)
-                              margin:  EdgeInsets.fromLTRB(0, 2.93, 102, 0),
+                              margin:  EdgeInsets.fromLTRB(0, 2.93, 0, 0),
                               width:  14,
                               height:  17.23,
                               child:
@@ -44,6 +44,9 @@ class _ContactpgState extends State<Contactpg> {
                                 height:  17.23,
                               ),
                             ),
+                          ),
+                          SizedBox(
+                            width: 30,
                           ),
                           Text(
                             'Contact Us',
@@ -96,76 +99,106 @@ class _ContactpgState extends State<Contactpg> {
                     SizedBox(
                       height: 40,
                     ),
-                    Container(
-                      margin:EdgeInsets.only(left: 30),
-                      child:Row(
-                        children: [
-                          Icon(
-                            Icons.email, // Replace with the desired icon
-                            color: Color(0xe5ffffff),
-                            size: 18, // Adjust the icon size as needed
+                    Padding(
+                      padding: EdgeInsets.symmetric(horizontal:15),
+                      child: Container(
+                        margin: EdgeInsets.symmetric(vertical: 10),
+                        padding: EdgeInsets.symmetric(horizontal: 16),
+                        height: 40,
+                        width: double.infinity,
+                        decoration: BoxDecoration(
+                          border: Border.all(color: Colors.orange), // Orange border
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        child: TextField(
+
+                          decoration: InputDecoration(
+                            hintText: 'Enter your name', // Hint text
+                            hintStyle: TextStyle(color: Colors.white),
+                            border: InputBorder.none, // Remove default border
                           ),
-                          SizedBox(width: 10),
-                          Text(
-                            'vedvishwakarma8888@gmail.com',
-                            style:TextStyle (
-                              fontSize:  15,
-                              fontWeight:  FontWeight.w400,
-                              height:  1.5,
-                              color:Color(0xffe87603),
-                            ),
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.symmetric(horizontal:15),
+                      child: Container(
+                        margin: EdgeInsets.symmetric(vertical: 10),
+                        padding: EdgeInsets.symmetric(horizontal: 16),
+                        height: 40,
+                        width: double.infinity,
+                        decoration: BoxDecoration(
+                          border: Border.all(color: Colors.orange), // Orange border
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        child: TextField(
+
+                          decoration: InputDecoration(
+                            hintText: 'Enter your email', // Hint text
+                            hintStyle: TextStyle(color: Colors.white),
+                            border: InputBorder.none, // Remove default border
                           ),
-                        ],
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ),
+                    ),
+                    Padding(
+                      padding: EdgeInsets.symmetric(horizontal:15),
+                      child: Container(
+                        margin: EdgeInsets.symmetric(vertical: 10),
+                        padding: EdgeInsets.symmetric(horizontal: 16),
+                        height: 150,
+                        width: double.infinity,
+                        decoration: BoxDecoration(
+                          border: Border.all(color: Colors.orange), // Orange border
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        child: TextField(
+
+                          decoration: InputDecoration(
+                            hintText: 'Type your message here..', // Hint text
+                            hintStyle: TextStyle(color: Colors.white),
+                            border: InputBorder.none, // Remove default border
+                          ),
+                          style: TextStyle(color: Colors.white),
+                        ),
                       ),
                     ),
                     SizedBox(
                       height: 10,
                     ),
-                    Container(
-                      margin:EdgeInsets.only(left: 30),
-                      child:Row(
-                        children: [
-                          Icon(
-                            Icons.email, // Replace with the desired icon
-                            color: Color(0xe5ffffff),
-                            size: 18, // Adjust the icon size as needed
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.of(context).pushReplacement(
+                          MaterialPageRoute(builder: (context) => Feedconfirmpg() ),
+
+                        );
+                      },
+                      child: Padding(
+                        padding: EdgeInsets.symmetric(horizontal: 15),
+                        child: Container(
+                          width: double.infinity,
+                          height:  38,
+                          decoration:  BoxDecoration (
+                            color:  Color(0xffe87603),
+                            borderRadius:  BorderRadius.circular(10),
                           ),
-                          SizedBox(width: 10),
-                          Text(
-                            'kaursimrat070@gmail.com',
-                            style:TextStyle (
-                              fontSize:  15,
-                              fontWeight:  FontWeight.w400,
-                              height:  1.5,
-                              color:Color(0xffe87603),
+                          child:
+                          Center(
+                            child:
+                            Text(
+                              'Submit',
+                              style:  TextStyle (
+                                fontSize:  16,
+                                letterSpacing: 1,
+                                fontWeight:  FontWeight.w600,
+                                height:  1.5,
+                                color:  Color(0xffededf2),
+                              ),
                             ),
                           ),
-                        ],
-                      ),
-                    ),
-                    SizedBox(
-                      height: 10,
-                    ),
-                    Container(
-                      margin:EdgeInsets.only(left: 30),
-                      child:Row(
-                        children: [
-                          Icon(
-                            Icons.email, // Replace with the desired icon
-                            color: Color(0xe5ffffff),
-                            size: 18, // Adjust the icon size as needed
-                          ),
-                          SizedBox(width: 10),
-                          Text(
-                            'ajay20380@gmail.com',
-                            style:TextStyle (
-                              fontSize:  15,
-                              fontWeight:  FontWeight.w400,
-                              height:  1.5,
-                              color:Color(0xffe87603),
-                            ),
-                          ),
-                        ],
+                        ),
                       ),
                     ),
 
